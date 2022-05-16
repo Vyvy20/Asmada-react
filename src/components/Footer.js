@@ -1,7 +1,7 @@
 import React from "react";
 import { BsFacebook } from "react-icons/bs";
 import { BsFillGeoAltFill } from "react-icons/bs";
-import "../App.css"
+import "../Css/App.css"
 
 function footer(){
     return(

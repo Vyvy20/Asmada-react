@@ -18,7 +18,7 @@ nav{
 }
 
 .items{
-        margin-right: 5%;
+        margin-right: 4%;
         margin-top: 20px;
         color:aliceblue;
         cursor: pointer;
@@ -31,6 +31,144 @@ nav{
 }
 
 
+.Article1{
+
+    background-color: #C49990;
+    margin-top: 20px;
+    MARGIN-LEFT: 20px;
+    MARGIN-RIGHT: 20px;
+    border-radius: 25px;
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.Presentation {
+    background-color: #F8F1EF;
+    PADDING-BOTTOM: 15px;
+    padding: 30px;
+    border-radius: 25px;
+    MARGIN-TOP: 15px;
+    
+    width: 35%;
+    height: 230px;
+}
+
+.Picturs {
+    PADDING-BOTTOM: 15px;
+    padding-top: 15px;
+}
+
+.Pict{
+
+    width: 290px;
+    MARGIN-RIGHT: 30px;
+    height: 200px;
+    border-radius: 25px;
+
+}
+
+.Bouton{
+    justify-content: center;
+    text-align: center;
+    margin-top: 18px;
+
+}
+
+.submit{
+    background-color: #5E2F2F;
+    border: #5E2F2F;
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+
+}
+
+
+
+
+.Article2{
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    MARGIN-LEFT: 20px;
+    MARGIN-RIGHT: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    width: 97%;
+    PADDING-RIGHT: 10px;
+    padding-left: 10px;
+}
+
+
+.Contact{
+    background-color: #C49990;
+    PADDING-BOTTOM: 15px;
+    border-radius: 25px;
+    MARGIN-TOP: 15px;
+    margin-bottom: 15px;
+    width: 15%;
+    
+
+}
+
+.listeContact{
+    list-style-type: none;
+    height: 100%;
+    position: relative;
+    margin: 0;
+
+}
+
+.itemsContact{
+ 
+        margin-right: 5%;
+        margin-top: 20px;
+        color:#5E2F2F;
+        cursor: pointer;
+        font-size: 17px;
+
+}
+
+
+.Partenaires{
+    
+    background-color: #C49990;
+   PADDING-BOTTOM: 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    MARGIN-TOP: 15px;
+    margin-bottom: 15px;
+    WIDTH: 80%;
+    justify-content: center;
+    /*min-height: 100vh; */
+
+}
+.textParag{
+    text-align: center;
+    color:#5E2F2F;
+    font-size: 20px;
+}
+
+.PicParten{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row-reverse;
+   flex-wrap: wrap;
+   align-items: center;
+
+}
+
+.LogPict {
+    width: 150px;
+    height: 100px;
+}
+
+
 footer{
     position:absolute;
     bottom: 0;
@@ -40,6 +178,7 @@ footer{
     width: 100%;
     margin: auto;
     padding: 8px 0;
+   bottom: auto;
 }
 
 footer ul{

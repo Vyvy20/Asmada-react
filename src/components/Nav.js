@@ -8,7 +8,7 @@ import React,{useState, useEffect} from "react";
 //  import { BsLockFill } from "react-icons/bs";
 import { AiOutlineBars } from "react-icons/ai";
 
-import "../App.css"
+import "../Css//App.css"
 
 function Nav(){
 
@@ -58,12 +58,7 @@ function Nav(){
 
 export default Nav;
 
-{/* <i><BsHouseDoorFill /></i> 
-<i><BsFillInfoCircleFill /></i>
-<i><BsCardText /></i>
-<i><FaHands /></i>
-<i><FaHandshake /></i>
-<i><BsLockFill /></i> */}
+
 
 
  

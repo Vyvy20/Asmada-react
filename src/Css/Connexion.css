@@ -1,0 +1,129 @@
+hr {
+    width: 450px;
+    margin: 10px;
+    height: 5px;
+    opacity: 1;
+}
+
+hr:not([size]) {
+    height: 5px;
+    color: #5E2F2F;
+}
+
+h1 {
+    text-align: center;
+    font-family: Trebuchet MS;
+    color: #000000;
+}
+
+.boutenText {
+    border: #5E2F2F;
+    background-color: #5E2F2F;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 450px;
+  
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.MotdePass{
+
+    color: blue;
+}
+.Nouveau{
+
+    text-align: center;
+    font-family: Trebuchet MS;
+    color: #000000;
+    margin-top: 30px;
+ 
+}
+
+.boutenText{
+
+    font-size: 1.3em;
+
+} 
+
+input[type="text"] {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 450px;
+    height: 50px;
+    margin-bottom: 10px
+}
+
+label, p {
+    margin-left: 10px;
+    font-family: Trebuchet MS;
+    color: #000000;
+    margin-top: 10px;
+    text-align: center;
+    
+  
+}
+
+#btnInscription {
+    margin-bottom: 10px;
+}
+
+.Connex {
+
+    position: absolute;
+    left: 50%;
+  
+    top: 60%;
+    transform: translate(-50%, -50%)
+}
+
+
+footer{
+    position:absolute;
+    bottom: 0;
+    background-color: #FCD65C;  
+    height: 120px;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 8px 0;
+   /* bottom: auto;*/
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    background-color: #FCD65C;  
+    height: 120px;
+    justify-content: center;
+    width: 100%;
+    top : 135%;
+    margin: auto;
+    padding: 8px 0;
+}
+
+footer ul{
+
+    list-style: none;
+    margin-bottom: 3%; 
+}
+
+footer ul li { 
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.containerFooter{
+    list-style-type: none;
+    
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.figurlignefooter{
+    text-decoration: none;
+    color: #000000;
+}
