@@ -17,7 +17,7 @@ function App(){
       <div>
          <Header />
          <Nav />
-         <Inscription />
+         <Article />
          <Footer />
       </div>
       </Router>
