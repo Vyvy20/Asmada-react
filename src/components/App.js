@@ -8,14 +8,14 @@ import Inscription from "./Inscription";
 import Footer from "./Footer";
 function App(){
    return (
-      <Router>
+      
       <div>
          <Header />
          <Nav />
-         <Article />
+         <Inscription />
          <Footer />
       </div>
-      </Router>
+      
    );
 
 }

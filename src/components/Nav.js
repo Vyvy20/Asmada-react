@@ -7,10 +7,15 @@ import React,{useState, useEffect} from "react";
 //  import { FaHands } from "react-icons/fa";
 //  import { BsLockFill } from "react-icons/bs";
 import { AiOutlineBars } from "react-icons/ai";
+import App from "./App";
+import Connexion from "./Connexion";
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
 import "../Css//App.css"
 
+
 function Nav(){
+    
 
     const [toggleMenu, setToggleMenu] = useState (false);
     const [largeur, setLargeur] = useState (window.innerWidth)
@@ -27,9 +32,6 @@ function Nav(){
            if(window.innerWidth > 825){
              setToggleMenu(false);
             }
-            // if(window.innerHeight > 825){
-            //     setToggleMenu(false);
-            //    }
         }
         window.addEventListener('resize', changeWidth);
         return() => {
@@ -39,7 +41,10 @@ function Nav(){
 
     }, [])
     return(
+        <Router>
+        <div>
         <nav>
+            
             {(toggleMenu || largeur > 825) && (
                 <ul className="liste">
                    <li className="items"> Accueil </li>
@@ -48,10 +53,17 @@ function Nav(){
                    <li className="items"> Nos action</li>
                    <li className="items"> Espace bénévoles</li>
                    <li className="items"> Connexion</li>
+                   
                 </ul>
             )}
             <button onClick={toggleNavSmallScreen} className="bgm"><AiOutlineBars /></button>
         </nav>
+  
+        <Route path="/Connexion" component={Connexion} />
+
+        </div>
+        </Router>
+        
     );
 
 }

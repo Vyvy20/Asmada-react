@@ -1,5 +1,9 @@
 import React from "react";
 
+import Inscription from "./Inscription";
+import App from "./App";
+
+
 const Picture1 = new URL("../images/7.jpg", import.meta.url)
 const Picture2 = new URL("../images/5.jpg", import.meta.url)
 const Log1 = new URL("../images/Log1.png", import.meta.url)
@@ -12,6 +16,7 @@ const Log7 = new URL("../images/Log7.png", import.meta.url)
 
 function Article(){
     return(
+       
         <div className="ArticleGlobale">
             <div className="Article1">
                 
@@ -25,7 +30,8 @@ function Article(){
                     <img className="Pict" src={Picture1} />
                     <img className="Pict" src={Picture2} />
                          <div className="Bouton">
-                         <input className="submit" type="submit" value="Devenir bénévole" />
+                         
+                         <div  className="submit" type="submit" to="/Inscription"> Devenir bénévole</div>
 
                          </div>
                 </div>
@@ -58,9 +64,7 @@ function Article(){
 
                 </div>
             </div>
-
         </div>
-
     );
 
 }
