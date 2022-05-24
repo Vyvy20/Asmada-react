@@ -150,22 +150,11 @@
 
     position: absolute;
     left: 50%;
-    top: 77%;
+    top: 65%;
     transform: translate(-50%, -50%);
 }
 
 
-footer{
-    position:absolute;
-    bottom: 0;
-    background-color: #FCD65C;  
-    height: 120px;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    padding: 8px 0;
-   /* bottom: auto;*/
-}
 
 footer{
     position:absolute;
@@ -191,7 +180,6 @@ footer ul li {
 }
 .containerFooter{
     list-style-type: none;
-    
     display: flex;
     justify-content:space-around;
     justify-items: center;
@@ -271,6 +259,7 @@ footer ul li {
         margin-left: 10px;
         height: 45px;
         width: 120px;
+        font-size: small;
     
     }
     .LabelConnexion, p {
@@ -321,6 +310,10 @@ footer ul li {
        
         top: 70%;
         transform: translate(-50%, -50%)
+    }
+    .insciption{
+
+        top: 82%;
     }
     .loi {
         font-size: 60%;

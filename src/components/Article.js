@@ -1,7 +1,6 @@
 import React from "react";
 
-import Inscription from "./Inscription";
-import App from "./App";
+import "../Css/App.css"
 
 
 const Picture1 = new URL("../images/7.jpg", import.meta.url)
@@ -21,14 +20,20 @@ function Article(){
             <div className="Article1">
                 
                  <div className="Presentation">
-                    <p> L’ASSOCIATION D’AIDE AU DÉVELOPPEMENT DE COMMUNES RURALES À MADAGASCAR
+                     <div className="PresentationDemi">
+                        <p className="PresentationTxt"> ASMADA : ASSOCIATION D’AIDE AU DÉVELOPPEMENT DE COMMUNES RURALES À MADAGASCAR   
+                        </p>
+                        <p className="PresentationTxt1">Devenez membre de l'association, faites-nous un don, inscrivez-vous et devenez acteur de nos actions.</p>
+                        <div className="BoutonDon">
+                         
+                            <a  className="submitDon" href="https://www.helloasso.com/associations/asmada/formulaires/3" >FAIRE UN DON</a>
 
-                    </p>
-
+                        </div>
+                    </div>
                 </div>
                  <div className="Picturs">
                     <img className="Pict" src={Picture1} />
-                    <img className="Pict" src={Picture2} />
+                    <img className="Pict1" src={Picture2} />
                          <div className="Bouton">
                          
                          <div  className="submit" type="submit" to="/Inscription"> Devenir bénévole</div>

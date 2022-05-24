@@ -12,7 +12,7 @@ function App(){
       <div>
          <Header />
          <Nav />
-         <Inscription />
+         <Connexion />
          <Footer />
       </div>
       

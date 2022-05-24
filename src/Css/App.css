@@ -2,6 +2,10 @@ header{
     background-color: #FCD65C;
 }
 
+.ArticleGlobale{
+
+    width: 100%;
+}
 nav{
     height: 60px;
     background-color: #5E2F2F;
@@ -34,7 +38,7 @@ nav{
 .Article1{
 
     background-color: #C49990;
-    margin-top: 20px;
+    margin-top: 30px;
     MARGIN-LEFT: 20px;
     MARGIN-RIGHT: 20px;
     border-radius: 25px;
@@ -42,32 +46,68 @@ nav{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 10px;
+    HEIGHT: 400px;
     
 }
 
 .Presentation {
     background-color: #F8F1EF;
     PADDING-BOTTOM: 15px;
-    padding: 30px;
+    padding: 15px;
     border-radius: 25px;
     MARGIN-TOP: 15px;
     
     width: 35%;
-    height: 230px;
+    height: 93%;
+}
+
+.PresentationDemi{
+
+    width: auto;
+    height: auto;
+}
+
+.Presentation .PresentationTxt{
+
+    color: #000000;
+    margin-left: 0;
+    font-size : 1.112em;
+
+}
+
+.Presentation .PresentationTxt1{
+
+    color: #000000;
+    margin-left: 0;
+    font-size : 1.112em;
+    margin-top: 14%;
+
 }
 
 .Picturs {
     PADDING-BOTTOM: 15px;
     padding-top: 15px;
+    WIDTH: 60%;
+    height: 125%;
 }
 
 .Pict{
 
-    width: 290px;
-    MARGIN-RIGHT: 30px;
-    height: 200px;
+    width: 48%;
     border-radius: 25px;
+    height: 65%;
+    margin-right: 2%;
+    object-fit: cover;
+}
 
+.Pict1{
+
+    width: 48%;
+    border-radius: 25px;
+    height: 65%;
+    margin-left: 2%;
+    object-fit: cover;
 }
 
 .Bouton{
@@ -83,9 +123,32 @@ nav{
     border-radius: 25px;
     padding: 15px;
     color: white;
+    width: 50%;
+    margin-left: 25%;
 
 }
 
+
+.BoutonDon{
+
+    justify-content: center;
+    text-align: center;
+    margin-top: 8%;
+
+}
+
+
+.submitDon{
+
+    background-color: #FCD65C;
+    border: #FCD65C;
+    border-radius: 15px;
+    padding: 3%;
+    color: #5E2F2F;
+    width: 5%;
+    text-decoration: none;
+
+}
 
 
 
@@ -157,14 +220,13 @@ nav{
 .PicParten{
    display: flex;
    justify-content: space-around;
-   flex-direction: row-reverse;
    flex-wrap: wrap;
    align-items: center;
 
 }
 
 .LogPict {
-    width: 150px;
+    /*width: 150px;*/
     height: 100px;
 }
 
@@ -176,9 +238,9 @@ footer{
     height: 120px;
     justify-content: center;
     width: 100%;
+    top : 135%;
     margin: auto;
     padding: 8px 0;
-   bottom: auto;
 }
 
 footer ul{
@@ -193,7 +255,6 @@ footer ul li {
 }
 .containerFooter{
     list-style-type: none;
-    
     display: flex;
     justify-content:space-around;
     justify-items: center;
