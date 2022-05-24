@@ -6,18 +6,18 @@ import "../Css/Connexion.css"
 
 function Connexion() {
   return (
-      <form>
+      <form className='bodyconnex'>
         <div className='Connex'>
 
           <h1 className='TitreConnexion'>Connexion</h1>
 
           <label className='LabelConnexion'>Login : </label><br></br>
 
-          <input  type="text" placeholder="Entrez votre adresse e-mail" className="TextConnexion"  /><br></br>
+          <input  type="email" placeholder="Entrez votre adresse e-mail" className="TextConnexion"  /><br></br>
 
           <label className='LabelConnexion'>Mot de passe : </label><br></br>
 
-          <input  type="text" placeholder="Entrez votre mot de passe"  className="TextConnexion" /><br></br>
+          <input  type="password" placeholder="Entrez votre mot de passe"  className="TextConnexion" /><br></br>
 
           <input className='boutenText' type="submit" value="Se connecter" /> <br></br>
 

@@ -1,8 +1,17 @@
+.bodyconnex{
+
+    width: 100%;
+}
+
 .bare {
     width: 450px;
     margin: 10px;
     height: 5px;
     opacity: 1;
+}
+
+.insciption{
+    width: auto;
 }
 
 .bare:not([size]) {
@@ -33,11 +42,26 @@
     text-align: center;
     padding: 10px;
     color: white;
+    font-size: 1.3em;
 }
 
+
+.boutenTextins {
+    border: #5E2F2F;
+    background-color: #5E2F2F;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 450px;
+  
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.3em;
+}
 .MotdePass{
 
     color: blue;
+    margin-left: 0px;
 }
 .Nouveau{
 
@@ -47,12 +71,7 @@
    /* margin-top: 30px; */
  
 }
-
-.boutenText{
-
-    font-size: 1.3em;
-
-} 
+ 
 
 .TextConnexion[type="text"] {
     margin-top: 10px;
@@ -190,7 +209,7 @@ footer ul li {
 
 
     .bare {
-        width: 450px;
+        width: 250px;
         margin: 10px;
         height: 5px;
         opacity: 1;
@@ -228,7 +247,7 @@ footer ul li {
         text-align: center;
         font-family: Trebuchet MS;
         color: #000000;
-        margin-top: 30px;
+        margin-top: 10px;
      
     }
     
@@ -238,14 +257,22 @@ footer ul li {
     
     } 
     
-    .TextConnexion[type="text"] {
-        margin-top: 10px;
-        margin-left: 10px;
-        width: 450px;
-        height: 50px;
-        margin-bottom: 10px
-    }
+
     
+    .TextInsciption[type="text"] , [type="email"] , [type="password"] , [type="number"] {
+        margin-left: 10px;
+        width: 250px;
+        height: 45px;
+       
+    }
+
+    .TextInsciptionNom[type="text"] {
+
+        margin-left: 10px;
+        height: 45px;
+        width: 120px;
+    
+    }
     .LabelConnexion, p {
         margin-left: 10px;
         font-family: Trebuchet MS;
@@ -255,20 +282,52 @@ footer ul li {
         
       
     }
+
+    .LabelInsciptionPrenom, p {
+        margin-left: 90px;
+       
+    }
     
     #btnInscription {
         margin-bottom: 10px;
     }
     
+    .boutenText {
+        border: #5E2F2F;
+        background-color: #5E2F2F;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 250px;
+      
+        text-align: center;
+        padding: 10px;
+        color: white;
+        font-size: 1.3em;
+    }
+
+    .boutenTextins {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 250px;
+      
+        text-align: center;
+        padding: 10px;
+        color: white;
+        font-size: 0.7em;
+    }
     .Connex {
     
         position: absolute;
-        left: 50%;
-      
-        top: 85%;
+       
+        top: 70%;
         transform: translate(-50%, -50%)
     }
+    .loi {
+        font-size: 60%;
+        width: 250px;
 
+    }
+    
     
 
 }
