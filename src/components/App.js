@@ -6,11 +6,6 @@ import Article from "./Article";
 import Connexion from "./Connexion";
 import Inscription from "./Inscription";
 import Footer from "./Footer";
-
-
-
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
-
 function App(){
    return (
       <Router>
