@@ -5,6 +5,7 @@ import Nav from "./Nav";
 import Article from "./Article";
 import Connexion from "./Connexion";
 import Inscription from "./Inscription";
+import ProfileB from "./ProfilBenevole";
 import Footer from "./Footer";
 
 
@@ -17,7 +18,7 @@ function App(){
       <div>
          <Header />
          <Nav />
-         <Article />
+         <ProfileB />
          <Footer />
       </div>
       </Router>

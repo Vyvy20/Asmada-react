@@ -10,7 +10,7 @@ hr:not([size]) {
     color: #5E2F2F;
 }
 
-h1 {
+.TitreConnexion {
     text-align: center;
     font-family: Trebuchet MS;
     color: #000000;
