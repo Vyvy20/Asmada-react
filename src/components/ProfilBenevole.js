@@ -17,6 +17,7 @@ function ProfilB() {
           <input type='submit' className='btnProfil' value='Mon Profil'/> <br></br>
           <input type='submit' className='btnHistoriqueMission' value='Historique'/> <br></br>
           <input type='submit' className='btnContact' value='Contact'/> <br></br>
+          <input type='submit' className='btnDeco' value='Déconnexion'/> <br></br>
         </div>
 
         <div className='InfoBenevole'>
@@ -28,7 +29,7 @@ function ProfilB() {
           <h5 className='TitreMdp'>Mot de passe</h5>
           <a className='ChangerMdp' href='*'>Changer de mot de passe</a>
           <h5 className='TitreSuppCompte'>Supprimer mon compte</h5>
-          <a className='SuppMdp' href='*'>Supprimer définitivement mob compte</a>
+          <a className='SuppMdp' href='*'>Supprimer définitivement mon compte</a>
           <h5 className='Outils'>Outils</h5>
           <a className='ConseilMission' href='*'>Conseils pour trouver votre mission bénévole</a><br></br>
           <a className='ContactConseiller' href='*'>Contacter un conseiller</a><br></br>
