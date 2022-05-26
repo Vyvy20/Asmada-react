@@ -6,7 +6,7 @@ import Nav from "./Nav";
 import Article from "./Article";
 import Connexion from "./Connexion";
 import Inscription from "./Inscription";
-import Nous from "./Nous";
+import Action from "./Action";
 import Footer from "./Footer";
 
 
@@ -16,7 +16,7 @@ function App(){
       <div >
          <Header />
          <Nav />
-         <Article />
+         <Action />
          <Footer />
        
 
