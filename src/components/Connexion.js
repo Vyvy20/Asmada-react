@@ -27,11 +27,10 @@ function Connexion() {
 
           <div className='Nouveau' name="TitreConnexion">Nouveau Utilisateur</div>
 
-          <div className='boutenText' id="btnInscription" type="submit">S'inscrire</div>
+          <Link to="/Inscription"><div className='boutenText' id="btnInscription" type="submit">S'inscrire</div></Link>
           </div>
-
+          
       </form>
-
     );
   }
 

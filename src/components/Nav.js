@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from "react";
-
+import {BrowserRouter as Routes, Route, Link} from "react-router-dom"
 // import { BsHouseDoorFill } from "react-icons/bs";
 //  import { BsFillInfoCircleFill } from "react-icons/bs";
 // import { BsCardText } from "react-icons/bs";
@@ -7,9 +7,10 @@ import React,{useState, useEffect} from "react";
 //  import { FaHands } from "react-icons/fa";
 //  import { BsLockFill } from "react-icons/bs";
 import { AiOutlineBars } from "react-icons/ai";
-import App from "./App";
+
+import Article from "./Article";
 import Connexion from "./Connexion";
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import Inscription from "./Inscription";
 
 import "../Css//App.css"
 
@@ -41,28 +42,30 @@ function Nav(){
 
     }, [])
     return(
-        <Router>
+        <Routes>
+
         <div>
         <nav>
             
             {(toggleMenu || largeur > 825) && (
                 <ul className="liste">
-                   <li className="items"> Accueil </li>
+                   <Link className="items"  to="/Home"> Accueil </Link>
                    <li className="items"> Qui sommes nous</li>
                    <li className="items"> Actualités</li>
                    <li className="items"> Nos action</li>
                    <li className="items"> Espace bénévoles</li>
-                   <li className="items"> Connexion</li>
+                  <Link to="/Connexion"> <li className="items"> Connexion</li></Link>
                    
                 </ul>
             )}
             <button onClick={toggleNavSmallScreen} className="bgm"><AiOutlineBars /></button>
         </nav>
-  
-        <Route path="/Connexion" component={Connexion} />
-
+              <Route exact path="/Home" component={Article} />
+              <Route  path="/Connexion" component={Connexion} />
+    
         </div>
-        </Router>
+        </Routes>
+ 
         
     );
 

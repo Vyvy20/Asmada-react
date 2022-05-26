@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 import "../Css/App.css"
 
@@ -36,7 +37,7 @@ function Article(){
                     <img className="Pict1" src={Picture2} />
                          <div className="Bouton">
                          
-                         <div  className="submit" type="submit" to="/Inscription"> Devenir bénévole</div>
+                         <Link  className="submit" type="submit" to="/Inscription"> Devenir bénévole</Link>
 
                          </div>
                 </div>

@@ -1,6 +1,11 @@
 .bodyconnex{
 
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
 }
 
 .bare {
@@ -10,9 +15,6 @@
     opacity: 1;
 }
 
-.insciption{
-    width: auto;
-}
 
 .bare:not([size]) {
     height: 5px;
@@ -62,6 +64,7 @@
 
     color: blue;
     margin-left: 0px;
+    text-align: center;
 }
 .Nouveau{
 
@@ -138,59 +141,18 @@
     margin-bottom: 10px;
 }
 
-.Connex {
-
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%)
-}
-
 .insciption{
-
-    position: absolute;
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
+    width: auto;
+    margin: 6%;
+ 
 }
-
-
-
-footer{
-    position:absolute;
-    bottom: 0;
-    background-color: #FCD65C;  
-    height: 120px;
-    justify-content: center;
-    width: 100%;
-    top : 135%;
-    margin: auto;
-    padding: 8px 0;
-}
-
-footer ul{
-
-    list-style: none;
-    margin-bottom: 3%; 
-}
-
-footer ul li { 
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-.containerFooter{
-    list-style-type: none;
+.FormClass{
     display: flex;
-    justify-content:space-around;
-    justify-items: center;
-    position: relative;
-    margin: 0;
+    justify-content: center;
+
 }
 
-.figurlignefooter{
-    text-decoration: none;
-    color: #000000;
-}
+
 
 
 @media screen  and (max-width:825px) {
@@ -226,10 +188,7 @@ footer ul li {
         color: white;
     }
     
-    .MotdePass{
-    
-        color: blue;
-    }
+  
     .Nouveau{
     
         text-align: center;
@@ -304,13 +263,7 @@ footer ul li {
         color: white;
         font-size: 0.7em;
     }
-    .Connex {
-    
-        position: absolute;
-       
-        top: 70%;
-        transform: translate(-50%, -50%)
-    }
+
     .insciption{
 
         top: 82%;
