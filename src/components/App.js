@@ -2,6 +2,7 @@ import React from "react";
 
 import Header from "./Header";
 import Nav from "./Nav";
+import NavB from "./NavB";
 import Article from "./Article";
 import Connexion from "./Connexion";
 import Inscription from "./Inscription";
@@ -17,7 +18,7 @@ function App(){
       <Router>
       <div>
          <Header />
-         <Nav />
+         <NavB />
          <ProfileB />
          <Footer />
       </div>
