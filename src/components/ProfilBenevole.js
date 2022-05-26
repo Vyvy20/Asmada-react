@@ -3,9 +3,9 @@ import "../Css/ProfilBenevole.css"
 
 function ProfilB() {
   return (
-    <div classname='ProfilGlobal'>
-      <div classname='Titre'>
-        <h4 classname='NomBenevole'>Bénévole {'>'} Camille DANG</h4>
+    <div className='ProfilGlobal'>
+      <div className='Titre'>
+        <h4 className='NomBenevole'>Bénévole {'>'} Camille DANG</h4>
         <hr className='SepProfil'></hr>
       </div>
 
