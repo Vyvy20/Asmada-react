@@ -105,8 +105,8 @@ function Nous(){
                  <div className="Maps">
                      <h1 className="Titre"> Où nous trouver </h1><br/><br/>
                      <div className="NousMaps">
-                             <div className="imgMaps">
-                                  <img className="PhotoMaps" src={Maps} />
+                             <div  className="imgMaps">
+                                  <a href="https://goo.gl/maps/FMGGQGYtDcoBSB1H7"><img  className="PhotoMaps" src={Maps} /></a>
                              </div>
                             <div className="Coordonnees">
                                  <div>

@@ -18,7 +18,7 @@ function App(){
       <div >
          <Header />
          <Nav />
-         <Inscription/>
+         <Nous />
          <Footer />
        
 
