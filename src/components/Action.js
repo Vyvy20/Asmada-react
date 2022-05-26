@@ -4,7 +4,7 @@ import "../Css/Action.css"
 const Picture1 = new URL("../images/7.jpg", import.meta.url)
 const PictureAsmada = new URL("../images/Asmada.jpg", import.meta.url)
 
-function Nous(){
+function Action(){
 
     return(
         
@@ -137,4 +137,4 @@ function Nous(){
 
 }
 
-export default Nous;
+export default Action;

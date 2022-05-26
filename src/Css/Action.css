@@ -135,3 +135,78 @@
     text-decoration: none;
 
 }
+.Maps {
+    width: 100%;
+}
+
+.NousMaps{
+
+    display: flex;
+
+}
+.PhotoMaps{
+
+    width: 60%;
+    border-radius: 15px;
+    object-fit: cover;
+    height: 33rem;
+    
+}
+
+.Coordonnees {
+    background-color: gainsboro;
+    color: black;
+    WIDTH: 35%;
+    HEIGHT: 1%;
+    PADDING: 2%;
+    MARGIN-TOP: 5%;
+    text-align: initial;
+    border-radius: 15px;
+    MARGIN-RIGHT: 10%;
+    MARGIN-LEFT: -20%;
+}
+
+.imgMaps{
+
+    width: 80%;
+}
+
+
+@media screen  and (max-width:825px) {
+
+    
+    .NousMaps{
+    
+        display: unset;
+    
+    }
+    .PhotoMaps{
+    
+        width: 70%;
+        border-radius: 15px;
+        object-fit: cover;
+        height: 33rem;
+        
+    }
+    
+    .Coordonnees {
+        background-color: gainsboro;
+        color: black;
+        WIDTH: 60%;
+        HEIGHT: 1%;
+        PADDING: 2%;
+        MARGIN-TOP: 5%;
+        text-align: initial;
+        border-radius: 15px;
+        MARGIN-RIGHT: 10%;
+        MARGIN-LEFT: 20%;
+    }
+    
+    .imgMaps{
+    
+        width: 100%;
+    }
+
+ 
+    
+}

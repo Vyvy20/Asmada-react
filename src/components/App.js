@@ -7,7 +7,9 @@ import Article from "./Article";
 import Connexion from "./Connexion";
 import Inscription from "./Inscription";
 import Action from "./Action";
+import Nous from "./Nous";
 import Footer from "./Footer";
+import ProfilBenevole from "./ProfilBenevole";
 
 
 function App(){
@@ -16,7 +18,7 @@ function App(){
       <div >
          <Header />
          <Nav />
-         <Action />
+         <Nous />
          <Footer />
        
 
