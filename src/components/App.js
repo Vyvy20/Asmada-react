@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Routes, Route} from "react-router-dom"
+import {BrowserRouter, Route} from "react-router-dom"
 
 import Header from "./Header";
 import Nav from "./Nav";
@@ -18,11 +18,20 @@ function App(){
       <div >
          <Header />
          <Nav />
-         <Nous />
          <Footer />
-       
 
+         {/* <BrowserRouter>
+            <Route>
+               <Route path="/" index element={<Article />}>
+                  {/* <Route index element={<Home />} /> */}
+                  {/* <Route path="Inscription" element={<Inscription />} />
+                  <Route path="Connexion" element={<Connexion />} />
+               </Route>
+            </Route>
+         </BrowserRouter> */}
       </div>
+
+      
       
    );
 

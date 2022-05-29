@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import Inscription from "./Inscription";
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Routes, Route, Link} from "react-router-dom"
 
 import "../Css/Connexion.css"
 
 function Connexion() {
   return (
+    <Routes>
       <form className='bodyconnex'>
         <div className='Connex'>
 
@@ -27,10 +28,11 @@ function Connexion() {
 
           <div className='Nouveau' name="TitreConnexion">Nouveau Utilisateur</div>
 
-          <Link to="/Inscription"><div className='boutenText' id="btnInscription" type="submit">S'inscrire</div></Link>
+          <a href="/Inscription" className='boutenText'  type="submit">S'inscrire</a>
           </div>
-          
+
       </form>
+      </Routes>
     );
   }
 

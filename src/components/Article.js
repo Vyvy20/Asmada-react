@@ -1,6 +1,7 @@
 import React from "react";
-import {Link} from 'react-router-dom'
 
+import {BrowserRouter as Routes, Route, Link} from "react-router-dom"
+import Inscription from "./Inscription";
 import "../Css/App.css"
 
 
@@ -37,21 +38,20 @@ function Article(){
                     <img className="Pict1" src={Picture2} />
                          <div className="Bouton">
                          
-                         <Link  className="submit" type="submit" to="/Inscription"> Devenir bénévole</Link>
+                         <a  className="submit" type="submit" href="/Inscription"> Devenir bénévole</a>
 
                          </div>
                 </div>
 
-               
             </div>
 
             <div className="Article2">
                 
                 <div className="Contact">
                      <ul className="listeContact">
-                         <li className="itemsContact"> Contact </li>
-                         <li className="itemsContact"> Faire un don</li>
-                         <li className="itemsContact"> Nos projet</li>
+                         <li href="/Contact" className="itemsContact"> Contact</li><br></br>
+                         <li href="https://www.helloasso.com/associations/asmada/formulaires/3" className="itemsContact">  Faire un don</li><br></br>
+                         <a href="/Action" className="itemsContact"> Nos projet</a>
                       </ul>
 
                 </div>
@@ -70,6 +70,7 @@ function Article(){
 
                 </div>
             </div>
+
         </div>
     );
 

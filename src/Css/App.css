@@ -27,6 +27,7 @@ nav{
         color:aliceblue;
         cursor: pointer;
         font-size: 17px;
+        text-decoration: none;
 }
 
 
@@ -203,8 +204,7 @@ nav{
         color: #FCD65C;
         text-decoration: none;
         text-align: center;
-        
-
+        margin-bottom: 50px;
 }
 
 

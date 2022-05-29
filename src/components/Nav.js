@@ -11,8 +11,11 @@ import { AiOutlineBars } from "react-icons/ai";
 import Article from "./Article";
 import Connexion from "./Connexion";
 import Inscription from "./Inscription";
+import Nous from "./Nous";
+import Action from "./Action";
 
 import "../Css//App.css"
+
 
 
 function Nav(){
@@ -49,19 +52,24 @@ function Nav(){
             
             {(toggleMenu || largeur > 825) && (
                 <ul className="liste">
-                   <Link className="items"  to="/Home"> Accueil </Link>
-                   <li className="items"> Qui sommes nous</li>
+                   <Link className="items"  to="/"> Accueil </Link>
+                   <Link className="items" to="/Qui_sommes_nous"> Qui sommes nous</Link>
                    <li className="items"> Actualités</li>
-                   <li className="items"> Nos action</li>
+                   <Link className="items" to="/Action"> Actions</Link>
                    <li className="items"> Espace bénévoles</li>
-                  <Link to="/Connexion"> <li className="items"> Connexion</li></Link>
+                   <Link className="items" to="/Inscription"> Inscription</Link>
+                   <Link className="items" to="/Connexion"> Connexion</Link>
                    
                 </ul>
             )}
             <button onClick={toggleNavSmallScreen} className="bgm"><AiOutlineBars /></button>
         </nav>
-              <Route exact path="/Home" component={Article} />
-              <Route  path="/Connexion" component={Connexion} />
+              <Route exact path="/" component={Article} />
+              <Route exact path="/Qui_sommes_nous" component={Nous} />
+              <Route exact path="/Action" component={Action} />
+              <Route exact path="/Inscription" component={Inscription} />
+
+              <Route exact path="/Connexion" component={Connexion} />
     
         </div>
         </Routes>
