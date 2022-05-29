@@ -55,7 +55,7 @@ input[type="text"] {
     margin-bottom: 10px
 }
 
-label, p {
+label, .MotdePass {
     margin-left: 10px;
     font-family: Trebuchet MS;
     color: #000000;

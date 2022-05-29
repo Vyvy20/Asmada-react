@@ -15,14 +15,12 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
 function App(){
    return (
-      <Router>
       <div>
          <Header />
-         <NavB />
+         <Nav/>
          <ProfileB />
          <Footer />
       </div>
-      </Router>
    );
 
 }

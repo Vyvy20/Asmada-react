@@ -4,20 +4,20 @@ import "../Css/ProfilBenevole.css"
 function ProfilB() {
   return (
     <div classname='ProfilGlobal'>
-      <div classname='Titre'>
-        <h4 classname='NomBenevole'>Bénévole {'>'} Camille DANG</h4>
+      <div className='TitreProfil'>
+        <h4 className='NomBenevole'> Bénévole {'>'} Camille DANG</h4>
         <hr className='SepProfil'></hr>
       </div>
 
       <div className='ContenuProfil'>
-        <h1 className='MsgBienvenue'>Bienvenue Camille</h1>
+        <h3 className='MsgBienvenue'>Bienvenue Camille</h3>
 
         <div className='MenuB'>
-          <input type='submit' className='btnCompte' value='Mon Compte'/> <br></br>
-          <input type='submit' className='btnProfil' value='Mon Profil'/> <br></br>
-          <input type='submit' className='btnHistoriqueMission' value='Historique'/> <br></br>
-          <input type='submit' className='btnContact' value='Contact'/> <br></br>
-          <input type='submit' className='btnDeco' value='Déconnexion'/> <br></br>
+          <input type='submit' className='btnCompte' value='Mon Compte'/> <br className='EspaceC'></br>
+          <input type='submit' className='btnProfil' value='Mon Profil'/> <br className='EspaceP'></br>
+          <input type='submit' className='btnHistoriqueMission' value='Historique'/> <br className='EspaceH'></br>
+          <input type='submit' className='btnContact' value='Contact'/> <br className='EspaceCo'></br>
+          <input type='submit' className='btnDeco' value='Déconnexion'/> <br className='EspaceD'></br>
         </div>
 
         <div className='InfoBenevole'>

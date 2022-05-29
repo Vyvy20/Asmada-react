@@ -1,18 +1,18 @@
 .MenuB {
     background-color: #C49990;
     width: 200px;
-    height: 360px;
-    margin-left: 30px;
+    height: 350px;
+    margin-left: 70px;
     border-radius: 20px;
 }
 
 
 .MenuB input[type='submit'] {
-    width: 105px;
-    height: 30px;
+    width: 155px;
+    height: 50px;
     text-align: center;
-    margin-left: 50px;
-    margin-top: 35px;
+    margin-left: 25px;
+    margin-top: 15px;
     background-color: #5E2F2F;
     border: none;
     color: white;
@@ -23,15 +23,11 @@
     color: black;
 }
 
-.NomBenvole{
-    text-align: center;
-}
-
 .InfoBenevole {
-    margin-top: -360px;
-    margin-left: 250px;
-    width: 900px;
-    height: 370px;
+    margin-top: -350px;
+    margin-left: 300px;
+    width: 850px;
+    height: 350px;
     background-color: rgb(211, 211, 211);
     padding: 10px;
     border-radius: 20px;
@@ -39,17 +35,17 @@
 
 .BtnModifInfos {
     position: absolute;
-    margin-top: -310px;
-    margin-left: 400px;
+    margin-top: -300px;
+    margin-left: 460px;
     background-color: #5E2F2F;
+    font-size: 20px;
     border: none;
     color: white;
 }
 
 .BtnRenseigne {
-    text-align: center;
     width: 300px;
-    margin-left: 50px;
+    margin-left: 40px;
     border-radius: 20px;
     border: none;
     color: white;
@@ -58,7 +54,7 @@
 
 .ConsultMissions {
     position: absolute;
-    width: 410px;
+    width: 390px;
     margin-top: -160px;
     margin-left: 400px;
     background-color: #C49990;
@@ -75,22 +71,111 @@
     color:#5E2F2F;
 }
 
+.Prenom, .Nom, .Tel, .Email, .SuppMdp, .ChangerMdp, .ConseilMission, .ContactConseiller{
+    font-size: 13px;
+}
+
 @media screen  and (max-width:825px) {
+    .TitreProfil {
+        margin-top: 120px;
+    }
+
+    .SepProfil {
+        width: auto;
+        background-color: lightgrey;
+        padding: 4px;
+    }
 
     .MenuB {
     
         position: absolute;
-        margin-top : 50%;
-       width: 27%;
-       height: auto;
+        margin-top : 405px;
+       width: 75%;
+       height: 25%;
+       margin-left: 30px;
     }
 
     .MenuB input[type='submit'] {
-        width: 60%;
-        height: 80%;
+        display: inline-block;
+        width: 90px;
+        height: 40px;
         text-align: center;
+        font-size: 13px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .InfoBenevole {
+        width: 60%;
+        height: 375px;
+        margin-top: -5px;
+        margin-left: 30px;
+    }
+
+    .BtnModifInfos {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 15%;
+        font-size: 13px;
+        width: 25%;
+        height: 3%;
+        text-align: center;
+    }
+    
+    .ConsultMissions {
+        position: absolute;
+        width: 50%;
+        margin-top: 1%;
+        margin-left: 3%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .Prenom, .Nom, .Tel, .Email, .SuppMdp, .ChangerMdp, .ConseilMission, .ContactConseiller {
+        font-size: 10px;
+    }
+
+    .TitreConsultMission {
+        font-size: 15px;
+    }
+
+    footer{
+        position:absolute;
+        bottom: 0;
+        background-color: #FCD65C;  
+        height: 120px;
+        justify-content: center;
+        width: 100%;
+        top : 240%;
+        margin: auto;
+        padding: 8px 0;
+    }
+    
+    footer ul{
+    
+        list-style: none;
+        margin-bottom: 3%; 
+    }
+    
+    footer ul li { 
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .BtnRenseigne {
+        text-align: center;
+        width: 50%;
         font-size: 50%;
-        margin-left: 20%;
-        margin-top: 30%;
+        margin-left: 3%;
+        border: none;
+    }
+
+    .TitreCoord, .TitreMdp, .TitreSuppCompte, .Outils {
+        margin-bottom: -10px;
+        font-size: 15px;
+    }
+
+    .EspaceP, .EspaceC, .EspaceH, .EspaceCo, .EspaceD {
+        display: none;
     }
 }
