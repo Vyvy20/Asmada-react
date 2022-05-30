@@ -116,25 +116,11 @@ function Action(){
 
                 
             </section>
-
-
-
-
-
-
-
-
-
-
-
         </div>
       
  
         
     );
-
-
-
 }
 
 export default Action;

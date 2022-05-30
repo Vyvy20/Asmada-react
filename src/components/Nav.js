@@ -13,8 +13,9 @@ import Connexion from "./Connexion";
 import Inscription from "./Inscription";
 import Nous from "./Nous";
 import Action from "./Action";
-
+import Contact from "./Contact";
 import "../Css//App.css"
+
 
 
 
@@ -57,7 +58,7 @@ function Nav(){
                    <li className="items"> Actualités</li>
                    <Link className="items" to="/Action"> Actions</Link>
                    <li className="items"> Espace bénévoles</li>
-                   <Link className="items" to="/Inscription"> Inscription</Link>
+                   {/* <Link className="items" to="/Inscription"> Inscription</Link> */}
                    <Link className="items" to="/Connexion"> Connexion</Link>
                    
                 </ul>
@@ -68,7 +69,7 @@ function Nav(){
               <Route exact path="/Qui_sommes_nous" component={Nous} />
               <Route exact path="/Action" component={Action} />
               <Route exact path="/Inscription" component={Inscription} />
-
+              <Route exact path="/Contact" component={Contact} />
               <Route exact path="/Connexion" component={Connexion} />
     
         </div>

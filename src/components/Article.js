@@ -49,11 +49,11 @@ function Article(){
                 
                 <div className="Contact">
                      <ul className="listeContact">
-                         <li href="/Contact" className="itemsContact"> Contact</li><br></br>
+                         <a href="/Contact" className="itemsContact"> Contact</a><br></br>
                          <li href="https://www.helloasso.com/associations/asmada/formulaires/3" className="itemsContact">  Faire un don</li><br></br>
                          <a href="/Action" className="itemsContact"> Nos projet</a>
                       </ul>
-
+s
                 </div>
 
                 <div className="Partenaires">

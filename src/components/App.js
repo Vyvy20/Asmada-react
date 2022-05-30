@@ -10,6 +10,7 @@ import Action from "./Action";
 import Nous from "./Nous";
 import Footer from "./Footer";
 import ProfilBenevole from "./ProfilBenevole";
+import Contact from "./Contact";
 
 
 function App(){
