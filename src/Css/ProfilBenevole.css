@@ -29,7 +29,6 @@
     width: 850px;
     height: 350px;
     background-color: rgb(211, 211, 211);
-    padding: 10px;
     border-radius: 20px;
 }
 
@@ -106,10 +105,11 @@
     }
 
     .InfoBenevole {
-        width: 60%;
+        MARGIN-RIGHT: 5%;
+        width: 80%;
         height: 375px;
         margin-top: -5px;
-        margin-left: 30px;
+        margin-left: 9%;
     }
 
     .BtnModifInfos {

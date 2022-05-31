@@ -1,0 +1,50 @@
+import React, {Component} from 'react';
+import "../Css/ProfilAdmin.css"
+
+function ProfilA() {
+  return (
+    <div classname='ProfilGlobalAdmin'>
+      <div className='TitreProfilA'>
+        <h4 className='NomAdmin'> Administrice {'>'} Amélie ADMIN</h4>
+        <hr className='SepProfilA'></hr>
+      </div>
+
+      <div className='ContenuProfilA'>
+        <h1 className='MsgBienvenueA'>Bienvenue Amélie</h1>
+
+        <div className='MenuA'>
+          <input type='submit' className='btnCompteA' value='Mon Compte'/> <br className='EspaceCA'></br>
+          <input type='submit' className='btnProfilA' value='Mon Profil'/> <br className='EspacePA'></br>
+          <input type='submit' className='btnGestionPers' value='Gestion des inscrits'/> <br className='EspaceGest'></br>
+          <input type='submit' className='btnContactA' value='Contacter un bénévole'/> <br className='EspaceCoA'></br>
+          <input type='submit' className='btnDecoA' value='Déconnexion'/> <br className='EspaceDA'></br>
+        </div>
+
+        <div className='InfoAdmin'>
+          <h5 className='TitreCoordA'>Mes coordonnées</h5>
+          <label className='PrenomA'>Prénom : Amélie </label><br></br>
+          <label className='NomA'>Nom : ADMIN </label><br></br>
+          <label className='TelA'>Téléphone : 06 24 68 02 46 </label><br></br>
+          <label className='EmailA'>Email : amelie.admin@laposte.net </label><br></br>
+          <h5 className='TitreMdpA'>Mot de passe</h5>
+          <a className='ChangerMdpA' href='*'>Changer de mot de passe</a>
+          <h5 className='TitreSuppCompteA'>Supprimer mon compte</h5>
+          <a className='SuppMdpA' href='*'>Supprimer définitivement mon compte</a>
+          <input type='submit' className='BtnModifInfosA' value='Je modifie mes informations'/><br></br>
+          
+          <div className='StatutMissions'>
+            <h5 className='TitreStatutMission'>Donnez le statut de la mission</h5>
+            <input type='submit' className='BtnStatutMiss' value='Je renseigne le statut de la mission'/>
+          </div>
+        
+        </div>
+
+      </div>
+    
+    </div>
+    
+    );
+  }
+
+
+export default ProfilA;

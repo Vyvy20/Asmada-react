@@ -8,6 +8,7 @@ import Connexion from "./Connexion";
 import Inscription from "./Inscription";
 import ProfileB from "./ProfilBenevole";
 import Footer from "./Footer";
+import ProfileA from "./ProfilAdmin";
 
 
 
@@ -17,7 +18,7 @@ function App(){
    return (
       <div>
          <Header />
-         <Nav/>
+         <NavB/>
          <ProfileB />
          <Footer />
       </div>
