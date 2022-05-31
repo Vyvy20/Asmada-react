@@ -18,8 +18,8 @@ function App(){
    return (
       <div>
          <Header />
-         <NavB/>
-         <ProfileB />
+         <Nav/>
+         <ProfileA />
          <Footer />
       </div>
    );
