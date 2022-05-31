@@ -9,6 +9,7 @@ import Inscription from "./Inscription";
 import ProfileB from "./ProfilBenevole";
 import Footer from "./Footer";
 import ProfileA from "./ProfilAdmin";
+import Mission from "./Mission";
 
 
 
@@ -19,7 +20,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <ProfileA />
+         <Mission />
          <Footer />
       </div>
    );
