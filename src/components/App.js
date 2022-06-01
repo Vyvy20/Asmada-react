@@ -10,7 +10,7 @@ import ProfileB from "./ProfilBenevole";
 import Footer from "./Footer";
 import ProfileA from "./ProfilAdmin";
 import Mission from "./Mission";
-
+import DetailMission from "./DetailMission";
 
 
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
@@ -20,7 +20,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <Mission />
+         <DetailMission />
          <Footer />
       </div>
    );

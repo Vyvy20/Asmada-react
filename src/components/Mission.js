@@ -15,7 +15,7 @@ function Mission() {
                 <div className='Mission1'>
 
                     <h2 className='TitreMission1'>Professeur de soutien en programmation</h2>
-                    <label className='Duree'>Duree : </label>
+                    <label className='Duree'>Durée : </label>
                     <p>3 semaines</p>
                     <label className='Lieu'>Lieu : </label>
                     <p>Salary</p>
@@ -28,7 +28,7 @@ function Mission() {
                 <div className='Mission2'>
 
                     <h2 className='TitreMission1'>Electricien</h2>
-                    <label className='Duree'>Duree : </label>
+                    <label className='Duree'>Durée : </label>
                     <p>2 semaines</p>
                     <label className='Lieu'>Lieu : </label>
                     <p>Ankara</p>
