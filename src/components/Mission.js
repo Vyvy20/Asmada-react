@@ -14,10 +14,13 @@ function Mission() {
                 {/* Bloc première mission */}
                 <div className='Mission1'>
 
-                    <h2 className='TitreMission1'>Professeur de programmation</h2>
-                    <label className='Descrip'>Description :</label>
-                    <p>Cette mission consiste à donner des cours de programmation aux adolescents.</p>
-                    <input type='submit' className='btnPostu' value='Postuler'></input>
+                    <h2 className='TitreMission1'>Professeur de soutien en programmation</h2>
+                    <label className='Duree'>Duree : </label>
+                    <p>3 semaines</p>
+                    <label className='Lieu'>Lieu : </label>
+                    <p>Salary</p>
+                    <label className='Thème'>Thèmes : </label>
+                    <p>Programmation, Education</p>
 
                 </div>
 
@@ -25,10 +28,13 @@ function Mission() {
                 <div className='Mission2'>
 
                     <h2 className='TitreMission1'>Electricien</h2>
-                    <label className='Descrip'>Description :</label>
-                    <p>Cette mission consiste à raccorder des fils électriques dans plusieurs maisons.</p>
-                    <input type='submit' className='btnPostu' value='Postuler'></input>
-
+                    <label className='Duree'>Duree : </label>
+                    <p>2 semaines</p>
+                    <label className='Lieu'>Lieu : </label>
+                    <p>Ankara</p>
+                    <label className='Thème'>Thèmes : </label>
+                    <p>Electricité</p>
+                    
                 </div>
 
             </div>
