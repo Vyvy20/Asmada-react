@@ -14,9 +14,9 @@ function Mission() {
                 {/* Bloc première mission */}
                 <div className='Mission1'>
 
-                    <h2 className='TitreMission1'>Professeur de réseaux</h2>
-                    <label className='Lieu'>Lieu : Salary</label><br></br>
-                    <label className='Thème'>Thème : Réseaux</label>
+                    <h2 className='TitreMission1'>Professeur de programmation</h2>
+                    <label className='Descrip'>Description :</label>
+                    <p>Cette mission consiste à donner des cours de programmation aux adolescents.</p>
 
                 </div>
 
@@ -24,8 +24,8 @@ function Mission() {
                 <div className='Mission2'>
 
                     <h2 className='TitreMission1'>Electricien</h2>
-                    <label className='Lieu'>Lieu : Ankarana</label><br></br>
-                    <label className='Thème'>Thème : Electricité</label>
+                    <label className='Descrip'>Description :</label>
+                    <p>Cette mission consiste à raccorder des fils électriques dans plusieurs maisons.</p>
                     
                 </div>
 
