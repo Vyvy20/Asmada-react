@@ -17,6 +17,7 @@ function Mission() {
                     <h2 className='TitreMission1'>Professeur de programmation</h2>
                     <label className='Descrip'>Description :</label>
                     <p>Cette mission consiste à donner des cours de programmation aux adolescents.</p>
+                    <input type='submit' className='btnPostu' value='Postuler'></input>
 
                 </div>
 
@@ -26,7 +27,8 @@ function Mission() {
                     <h2 className='TitreMission1'>Electricien</h2>
                     <label className='Descrip'>Description :</label>
                     <p>Cette mission consiste à raccorder des fils électriques dans plusieurs maisons.</p>
-                    
+                    <input type='submit' className='btnPostu' value='Postuler'></input>
+
                 </div>
 
             </div>
