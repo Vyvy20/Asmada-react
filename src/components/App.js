@@ -20,7 +20,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <DetailMission />
+         <ProfileA/>
          <Footer />
       </div>
    );

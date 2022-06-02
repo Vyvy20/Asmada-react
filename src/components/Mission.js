@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import "../Css/Mission.css"
 
 function Mission() {
     return (
