@@ -1,43 +1,44 @@
 import React, {Component} from 'react';
-import "../Css/Mission.css"
+import "../Css/MissionAdmin.css"
 
 function MissionAdmin() {
     return (
 
         <div className='MissionsAsso'>
 
-            <h1 className='TitrePageMiss'>Missions proposées</h1>
+            <h1 className='TitrePageMissA'>Missions proposées</h1>
+            <hr className='SepMissA'></hr>
 
             {/* Bloc des missions */}
             <div className='LstMissions'>
 
                 {/* Bloc première mission */}
-                <div className='Mission1'>
+                <div className='MissionNum1A'>
 
-                    <h2 className='TitreMission1'>Professeur de soutien en programmation</h2>
-                    <label className='Duree'>Durée : </label>
+                    <h2 className='TitreMission1A'>Professeur de soutien en programmation</h2>
+                    <label className='DureeA'>Durée : </label>
                     <p>3 semaines</p>
-                    <label className='Lieu'>Lieu : </label>
+                    <label className='LieuA'>Lieu : </label>
                     <p>Salary</p>
-                    <label className='Thème'>Thèmes : </label>
+                    <label className='ThèmeA'>Thèmes : </label>
                     <p>Programmation, Education</p>
-                    <input className='btnModif1' type="submit" value="Modifier " />
-                    <input className='btnSupp1' type="submit" value="Supprimer " />
+                    <input className='btnModif' type="submit" value="Modifier " />
+                    <input className='btnSupp' type="submit" value="Supprimer " />
 
                 </div>
 
                 {/* Bloc deuxième mission */}
-                <div className='Mission2'>
+                <div className='MissionNum2A'>
 
-                    <h2 className='TitreMission1'>Electricien</h2>
-                    <label className='Duree'>Durée : </label>
+                    <h2 className='TitreMission1A'>Electricien</h2>
+                    <label className='DureeA'>Durée : </label>
                     <p>2 semaines</p>
-                    <label className='Lieu'>Lieu : </label>
+                    <label className='LieuA'>Lieu : </label>
                     <p>Ankara</p>
-                    <label className='Thème'>Thèmes : </label>
+                    <label className='ThèmeA'>Thèmes : </label>
                     <p>Electricité</p>
-                    <input className='btnModif2' type="submit" value="Modifier " />
-                    <input className='btnSupp2' type="submit" value="Supprimer " />
+                    <input className='btnModif' type="submit" value="Modifier " />
+                    <input className='btnSupp' type="submit" value="Supprimer " />
                     
                 </div>
 

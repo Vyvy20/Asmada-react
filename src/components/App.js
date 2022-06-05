@@ -21,7 +21,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <Mission/>
+         <MissionAdmin/>
          <Footer />
       </div>
    );

@@ -1,0 +1,58 @@
+.MissionNum2A {
+    margin-left: 700px;
+    margin-top: -310px;
+}
+
+.MissionNum1A {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.TitreMission1A /*,.TitreFiltresRech*/ {
+    font-size: 25px;
+    color: black;
+}
+
+.MissionNum1A, .MissionNum2A {
+    padding: 10px;
+    border-radius: 20px;
+    width: 500px;
+    background-color: #C49990;
+}
+
+.SepMissA {
+    width: auto;
+    background-color: lightgrey;
+}
+
+footer {
+    position: sticky;
+    margin-top: 100px;
+}
+
+.btnModif, .btnSupp {
+    border-radius: 20px;
+    border: none;
+    background-color: #5E2F2F;
+    color: white;
+}
+
+.btnSupp {
+    margin-left: 300px;
+}
+
+.btnModif {
+    margin-left: 10px;
+}
+
+/*.Filtres {
+    background-color: #F8E154;
+    margin-left: 100px;
+    width: 1100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.BtnRech {
+    margin-left: 970px;
+}*/
