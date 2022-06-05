@@ -14,6 +14,8 @@ import Inscription from "./Inscription";
 import Nous from "./Nous";
 import Action from "./Action";
 import Contact from "./Contact";
+import Test from "./Test";
+import FaireTest from "./FaireTest";
 import "../Css//App.css"
 
 
@@ -57,12 +59,14 @@ function Nav(){
                    <Link className="items" to="/Qui_sommes_nous"> Qui sommes nous</Link>
                    <li className="items"> Actualités</li>
                    <Link className="items" to="/Action"> Actions</Link>
+                   <Link className="items" to="/Test"> Test</Link>
+                   <Link className="items" to="/FaireTest"> Créer un Test</Link>
                    <li className="items"> Espace bénévoles</li>
                    {/* <Link className="items" to="/Inscription"> Inscription</Link> */}
                    <Link className="items" to="/Connexion"> Connexion</Link>
                    
                 </ul>
-            )}
+            )} 
             <button onClick={toggleNavSmallScreen} className="bgm"><AiOutlineBars /></button>
         </nav>
               <Route exact path="/" component={Article} />
@@ -71,6 +75,9 @@ function Nav(){
               <Route exact path="/Inscription" component={Inscription} />
               <Route exact path="/Contact" component={Contact} />
               <Route exact path="/Connexion" component={Connexion} />
+              <Route exact path="/Test" component={Test} />
+              <Route exact path="/FaireTest" component={FaireTest} />
+
     
         </div>
         </Routes>
