@@ -1,6 +1,6 @@
 .MissionNum2A {
     margin-left: 700px;
-    margin-top: -310px;
+    margin-top: -305px;
 }
 
 .MissionNum1A {
@@ -30,7 +30,7 @@ footer {
     margin-top: 100px;
 }
 
-.btnModif, .btnSupp {
+.btnModif, .btnSupp, .btnAjouterMiss {
     border-radius: 20px;
     border: none;
     background-color: #5E2F2F;
@@ -43,6 +43,10 @@ footer {
 
 .btnModif {
     margin-left: 10px;
+}
+
+.btnAjouterMiss {
+    margin-left: 1000px;
 }
 
 /*.Filtres {

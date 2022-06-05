@@ -8,7 +8,8 @@ function MissionAdmin() {
 
             <h1 className='TitrePageMissA'>Missions proposées</h1>
             <hr className='SepMissA'></hr>
-
+            <input type='submit' className='btnAjouterMiss' value='Ajouter une mission'></input>
+            
             {/* Bloc des missions */}
             <div className='LstMissions'>
 
