@@ -55,7 +55,7 @@ nav{
 .Presentation {
     background-color: #F8F1EF;
     PADDING-BOTTOM: 15px;
-    padding: 15px;
+    padding: 20px;
     border-radius: 25px;
     MARGIN-TOP: 15px;
     width: 35%;
@@ -187,6 +187,7 @@ nav{
     position: relative;
     margin: 0;
     padding: 5%;
+    margin-top: 35PX;
 
 }
 
@@ -204,7 +205,26 @@ nav{
         color: #FCD65C;
         text-decoration: none;
         text-align: center;
-        margin-bottom: 50px;
+        padding: 20px;
+        margin-bottom: 18px;
+}
+
+.itemsContactA{
+ 
+    margin-right: 5%;
+    margin-top: 35px;
+    color:#5E2F2F;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: #5E2F2F;
+    border: #5E2F2F;
+    border-radius: 15px;
+    padding: 9%;
+    color: #FCD65C;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 18px;
 }
 
 
@@ -250,6 +270,7 @@ footer{
     width: 100%;
     top : 135%;
     padding: 8px 0;
+    height: 200px;
 }
 
 footer ul{

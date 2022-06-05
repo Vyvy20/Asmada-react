@@ -49,9 +49,9 @@ function Article(){
                 
                 <div className="Contact">
                      <ul className="listeContact">
-                         <a href="/Contact" className="itemsContact"> Contact</a><br></br>
+                         <a href="/Contact" className="itemsContactA"> Contact</a><br></br>
                          <li href="https://www.helloasso.com/associations/asmada/formulaires/3" className="itemsContact">  Faire un don</li><br></br>
-                         <a href="/Action" className="itemsContact"> Nos projet</a>
+                         <a href="/Action" className="itemsContactA"> Nos projet</a>
                       </ul>
 s
                 </div>

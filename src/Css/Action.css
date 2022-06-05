@@ -8,6 +8,12 @@
     object-fit: cover;
 }
 
+.Photo1Test{
+    WIDTH: 100%;
+    height: 370px;
+  
+}
+
 .Photo2{
     WIDTH: 30%;
     height: 30%;
@@ -29,6 +35,10 @@
     text-align: center;
 }
 
+.TitreTest{
+    DISPLAY: flex;
+
+}
 .Titre{
 
     font-size: xxx-large;
@@ -57,6 +67,21 @@
 }
 
 
+.GrosTitreFaireTest{
+    font-size: 2.4rem;
+    color: #5E2F2F;
+    width: 11%;
+    margin-bottom: 40px;
+
+}
+
+.TextConnexionTest{
+    margin-left: 10px;
+    width: 29%;
+    height: 50px;
+
+}
+
 .m-0{
 
     color: #5E2F2F;
@@ -73,7 +98,23 @@
     padding-bottom: 70px;
 }
 
+.resume-sectionTest{
+
+    padding-left: 25%;
+    padding-right: 15%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .resume-section , p{
+
+    margin-left: 0;
+    text-align: inherit;
+    font-size: 1.12rem;
+    color: gray;
+}
+
+.resume-sectionTest , p{
 
     margin-left: 0;
     text-align: inherit;
@@ -104,6 +145,14 @@
     flex-wrap: wrap;
 
 }
+
+.ParagDonTest{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
 .TextDon {
     color: white;
 
@@ -118,23 +167,55 @@
 
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
+    margin-left: 29%;
    
 
 }
 
 
-.submitDonNous{
+.BoutonTest{
 
-    background-color: #FCD65C;
-    border: #FCD65C;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 0;
+   
+
+}
+
+
+
+.submitDonNousTest{
+
+    background-color: #5E2F2F;
+    border: #5E2F2F;
     border-radius: 15px;
     padding: 20px;
     margin-right: 40px;
-    color: #5E2F2F;
+    color: #FCD65C;
+    
     width: 5%;
     text-decoration: none;
 
 }
+
+
+.submitAnnuler{
+
+    background-color: #EE3E3E;
+    border: #EE3E3E;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 40px;
+    color: #FCD65C;
+    
+    width: 5%;
+    text-decoration: none;
+
+}
+
+
 .Maps {
     width: 100%;
 }
@@ -169,6 +250,11 @@
 .imgMaps{
 
     width: 80%;
+}
+
+.boutonTest{
+
+    display: flex;
 }
 
 
