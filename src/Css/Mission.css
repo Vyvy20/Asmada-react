@@ -1,4 +1,44 @@
-.Mission2 {
-    margin-top: -268px;
+.MissionNum2 {
     margin-left: 700px;
+    margin-top: -260px;
 }
+
+.MissionNum1 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.TitreMission1, .TitreFiltresRech {
+    font-size: 25px;
+    color: black;
+}
+
+.MissionNum1, .MissionNum2 {
+    padding: 10px;
+    border-radius: 20px;
+    height: 260px;
+    width: 500px;
+    background-color: #C49990;
+}
+
+.SepMiss {
+    width: auto;
+    background-color: lightgrey;
+}
+
+footer {
+    position: sticky;
+    margin-top: 100px;
+}
+
+/*.Filtres {
+    background-color: #F8E154;
+    margin-left: 100px;
+    width: 1100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.BtnRech {
+    margin-left: 970px;
+}*/
