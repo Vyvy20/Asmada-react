@@ -1,0 +1,41 @@
+.AjoutMiss {
+    background-color: #C49990;
+    padding: 5px;
+    width: 530px;
+    margin-left: 400px;
+}
+
+.SepAjoutMiss {
+    width: auto;
+    background-color: lightgrey;
+}
+
+.LblTitreMiss, .LblDuree, .LblLieu, .LblDom, .LblDesc {
+    text-decoration: underline
+}
+
+.TxtTitreMiss, .TxtDuree, .TxtLieu, .TxtDom, .TxtDesc {
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.TxtDesc{
+    height: 300px;
+}
+
+.BtnAjout, .BtnAnnul {
+    border-radius: 5px;
+    background-color: #5E2F2F;
+    color: white;
+    border: none;
+}
+
+.BtnAnnul {
+    margin-left: 20px;
+}
+
+.BtnAjout {
+    margin-left: 360px;
+}

@@ -1,27 +1,32 @@
 import React, {Component} from 'react';
+import "../Css/AjoutMission.css"
 
 function AjoutMission() {
     return (
 
-        <form className='FormAjoutMiss'>
+       
 
-            <div className='AjoutMiss'>
+            <div className='AjoutMissEns'>
 
                 <h1 className='TitreAjoutMiss'>Ajout d'une mission</h1>
-                <label className='LblTitreMiss'>Titre :</label>
-                <input type='text' className='TxtTitreMiss' value='Entre un titre'></input>
-                <label className='LblDuree'>Durée :</label>
-                <input type='text' className='TxtDuree' value='Entre une durée'></input><br></br>
-                <label className='LblLieu'>Lieu :</label>
-                <input type='text' className='TxtLieu' value='Entre un lieu'></input>
-                <label className='LblDom'>Domaines :</label>
-                <input type='text' className='TxtDom' value='Entre des domaines'></input><br></br>
-                <label className='LblDesc'>Description :</label><br></br>
-                <textarea className='TxtDesc'></textarea><br></br>
-                <input type='submit' className='BtnAjout' value='Ajouter'></input>
+                <hr className='SepAjoutMiss'></hr>
+                <form className='FormAjoutMiss'>
+                    <div className='AjoutMiss'>
+                        <label className='LblTitreMiss'>Titre :</label><br></br>
+                        <input type='text' className='TxtTitreMiss' value='Entre un titre'></input><br></br>
+                        <label className='LblDuree'>Durée :</label><br></br>
+                        <input type='text' className='TxtDuree' value='Entre une durée'></input><br></br>
+                        <label className='LblLieu'>Lieu :</label><br></br>
+                        <input type='text' className='TxtLieu' value='Entre un lieu'></input><br></br>
+                        <label className='LblDom'>Domaines :</label><br></br>
+                        <input type='text' className='TxtDom' value='Entre des domaines'></input><br></br>
+                        <label className='LblDesc'>Description :</label><br></br>
+                        <textarea className='TxtDesc'></textarea><br></br>
+                        <input type='submit' className='BtnAjout' value='Ajouter'></input>
+                        <input type='submit' className='BtnAnnul' value='Annuler'></input>
+                    </div>
+                </form>
             </div>
-
-        </form>
     )
 }
 
