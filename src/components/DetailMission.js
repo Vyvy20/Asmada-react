@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "../Css/DetailMission.css"
 
 function DetailMission() {
     return (
@@ -18,15 +19,15 @@ function DetailMission() {
             <form>
                 <div className='Dispo'>
 
-                    <label className='TrancheDispo'>Disponibilité : du </label>
-                    <input type="text" placeholder="Entrez une date de début" className="DateDébut"  />
+                    <label className='TrancheDispo'>Disponibilité du : </label>
+                    <input type="text" placeholder="Entrez une date de début" className='DateDebut'  />
                     <label className='TrancheDispo2'> au </label>
-                    <input type="text" placeholder="Entrez une date de fin" className="DateFin"  />
+                    <input type="text" placeholder="Entrez une date de fin" className='DateFin'  />
 
                 </div>
-            </form>
+            </form><br></br>
 
-            <input className='btnQuest' type="submit" value="Realiser le test " />
+            <input className='btnQuest' type="submit" value="Réaliser le test " />
             <input className='btnPostu' type="submit" value="Postuler " />
 
         </div>

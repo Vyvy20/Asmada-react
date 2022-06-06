@@ -47,7 +47,7 @@ hr:not([size]) {
 
 } 
 
-input[type="text"] {
+.emailText, .MdpText {
     margin-top: 10px;
     margin-left: 10px;
     width: 450px;

@@ -1,0 +1,54 @@
+.MissionAssoDetail {
+    background-color: lightgrey;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 200px;
+    width: 900px;
+    padding: 10px;
+}
+
+.TitreMiss {
+    text-align: center;
+    color: #5E2F2F;
+}
+
+.DureeMiss, .LieuMiss, .ThemeMiss, .Descrip {
+    color: #6E2C00;
+    text-decoration: underline;
+}
+
+.DateDebut, .DateFin {
+    width: 200px;
+    margin-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.Dispo {
+    background-color: #C49990;
+    width: 590px;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.TrancheDispo, .TrancheDispo2 {
+    color: black;
+}
+
+.btnQuest, .btnPostu {
+    border-radius: 10px;
+    background-color: #5E2F2F;
+    color: white;
+    border: none;
+}
+
+.btnPostu {
+    margin-left: 20px;
+}
+
+.btnQuest {
+    margin-left: 650px;
+}
