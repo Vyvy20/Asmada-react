@@ -1,0 +1,41 @@
+.ModifMiss {
+    background-color: #C49990;
+    padding: 5px;
+    width: 530px;
+    margin-left: 400px;
+}
+
+.SepModifMiss {
+    width: auto;
+    background-color: lightgrey;
+}
+
+.LblTitreMissModif, .LblDureeModif, .LblLieuModif, .LblDomModif, .LblDescModif {
+    text-decoration: underline
+}
+
+.TxtTitreMissModif, .TxtDureeModif, .TxtLieuModif, .TxtDomModif, .TxtDescModif {
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.TxtDescModif{
+    height: 300px;
+}
+
+.BtnModif, .BtnAnnulModif {
+    border-radius: 5px;
+    background-color: #5E2F2F;
+    color: white;
+    border: none;
+}
+
+.BtnAnnulModif {
+    margin-left: 16px;
+}
+
+.BtnModif {
+    margin-left: 355px;
+}

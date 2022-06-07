@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "../Css/ModifMission.css"
 
 function ModifMission() {
     return (
@@ -7,21 +8,21 @@ function ModifMission() {
 
             <div className='ModifMissEns'>
 
-                <h1 className='TitreModifMiss'>Ajout d'une mission</h1>
+                <h1 className='TitreModifMiss'>Modification d'une mission</h1>
                 <hr className='SepModifMiss'></hr>
                 <form className='FormModifMiss'>
                     <div className='ModifMiss'>
                         <label className='LblTitreMissModif'>Titre :</label><br></br>
-                        <input type='text' className='TxtTitreMissModif' value='Entre un titre'></input><br></br>
+                        <input type='text' className='TxtTitreMissModif' placeholder='Professeur de soutien en programmation'></input><br></br>
                         <label className='LblDureeModif'>Durée :</label><br></br>
-                        <input type='text' className='TxtDureeModif' value='Entre une durée'></input><br></br>
+                        <input type='text' className='TxtDureeModif' placeholder='3 semaines'></input><br></br>
                         <label className='LblLieuModif'>Lieu :</label><br></br>
-                        <input type='text' className='TxtLieuModif' value='Entre un lieu'></input><br></br>
+                        <input type='text' className='TxtLieuModif' placeholder='Salary'></input><br></br>
                         <label className='LblDomModif'>Domaines :</label><br></br>
-                        <input type='text' className='TxtDomModif' value='Entre des domaines'></input><br></br>
+                        <input type='text' className='TxtDomModif' placeholder='Programmation, Education'></input><br></br>
                         <label className='LblDescModif'>Description :</label><br></br>
-                        <textarea className='TxtDescModif'></textarea><br></br>
-                        <input type='submit' className='BtnModif' value='Ajouter'></input>
+                        <textarea className='TxtDescModif' placeholder='Cette mission consiste à aider les adolescents qui ont des difficultés en programmation.'></textarea><br></br>
+                        <input type='submit' className='BtnModif' value='Modifier'></input>
                         <input type='submit' className='BtnAnnulModif' value='Annuler'></input>
                     </div>
                 </form>
