@@ -13,6 +13,7 @@ import Mission from "./Mission";
 import DetailMission from "./DetailMission";
 import MissionAdmin from "./MissionAdmin";
 import AjoutMission from "./AjoutMission";
+import ModifMission from "./ModifMission";
 
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
