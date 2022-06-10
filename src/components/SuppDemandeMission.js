@@ -52,8 +52,8 @@ function MissionAdmin() {
                 <div className='DemandeSup'>
 
                     <p className='MsgSupDemande'>Voulez-vous vraiment supprimer supprimer cette mission ?</p>
-                    <input type='submit' className="BtnOuiSupp" value='Oui'></input>
-                    <input type='submit' className="BtnNonSupp" value='Non'></input>
+                    <input type='submit' className='BtnOuiSupp' value='Oui'></input>
+                    <input type='submit' className='BtnNonSupp' value='Non'></input>
                 </div>
 
             </div>
