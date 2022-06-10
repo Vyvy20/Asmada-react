@@ -1,0 +1,88 @@
+.MissionNum2ADemandeSupp {
+    margin-left: 700px;
+    margin-top: -305px;
+}
+
+.MissionNum1ADemandeSupp {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.TitreMission1ADemandeSupp /*,.TitreFiltresRech*/ {
+    font-size: 25px;
+    color: black;
+}
+
+.MissionNum1ADemandeSupp, .MissionNum2ADemandeSupp {
+    padding: 10px;
+    border-radius: 20px;
+    width: 500px;
+    background-color: #C49990;
+}
+
+.SepMissADemandeSupp {
+    width: auto;
+    background-color: lightgrey;
+}
+
+footer {
+    position: sticky;
+    margin-top: 100px;
+}
+
+.btnModifDemandeSupp, .btnSuppDemandeSupp, .btnAjouterMissDemandeSupp {
+    border-radius: 20px;
+    border: none;
+    background-color: #5E2F2F;
+    color: white;
+}
+
+.btnSuppDemandeSupp {
+    margin-left: 300px;
+}
+
+.btnModifDemandeSupp {
+    margin-left: 10px;
+}
+
+.btnAjouterMissDemandeSupp {
+    margin-left: 1000px;
+}
+
+.Cache {
+    position: absolute;
+    background-color: rgb(198, 131, 87, 0.2);
+    width: 100%;
+    height: 100%;
+    margin-top: -426px;
+}
+
+.DemandeSup {
+    background-color: rgb(94, 47, 47, 0.9);
+    margin-left: 400px;
+    width: 550px;
+    height: 90px;
+    margin-top: 220px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.MsgSupDemande {
+    font-size: 20px;
+    text-align: center;
+}
+
+.BtnOuiSupp, .BtnNonSupp {
+    border-radius: 5px;
+    background-color: #C49990;
+    border: none;
+    width: 100px;
+}
+
+.BtnNonSupp {
+    margin-left: 16px;
+}
+
+.BtnOuiSupp {
+    margin-left: 310px;
+}

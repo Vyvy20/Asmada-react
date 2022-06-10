@@ -14,6 +14,7 @@ import DetailMission from "./DetailMission";
 import MissionAdmin from "./MissionAdmin";
 import AjoutMission from "./AjoutMission";
 import ModifMission from "./ModifMission";
+import SuppDemandeMission from "./SuppDemandeMission";
 
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
@@ -22,7 +23,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <ModifMission/>
+         <SuppDemandeMission/>
          <Footer />
       </div>
    );

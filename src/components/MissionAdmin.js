@@ -4,14 +4,14 @@ import "../Css/MissionAdmin.css"
 function MissionAdmin() {
     return (
 
-        <div className='MissionsAsso'>
+        <div className='MissionsAssoAdmin'>
 
             <h1 className='TitrePageMissA'>Missions proposées</h1>
             <hr className='SepMissA'></hr>
             <input type='submit' className='btnAjouterMiss' value='Ajouter une mission'></input>
             
             {/* Bloc des missions */}
-            <div className='LstMissions'>
+            <div className='LstMissionsAdmin'>
 
                 {/* Bloc première mission */}
                 <div className='MissionNum1A'>
