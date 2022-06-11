@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "../Css/SuppDemandeMission.css"
 
-function MissionAdmin() {
+function MissionDemandeSup() {
     return (
 
         <div className='MissionsAssoAdminDemandeSupp'>
@@ -62,4 +62,4 @@ function MissionAdmin() {
     )
 }
 
-export default MissionAdmin;
+export default MissionDemandeSup;
