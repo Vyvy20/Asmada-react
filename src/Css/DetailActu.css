@@ -1,0 +1,13 @@
+.MissionActuDetail {
+    background-color: lightgrey;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 200px;
+    width: 900px;
+    padding: 10px;
+}
+
+.TitreActu {
+    text-align: center;
+    color: #5E2F2F;
+}
