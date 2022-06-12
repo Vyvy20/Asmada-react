@@ -18,6 +18,7 @@ import SuppDemandeMission from "./SuppDemandeMission";
 import Actu from "./Actu";
 import DetailActu from "./DetailActu"
 import ActuAdmin from "./ActuAdmin"
+import AjoutActu from "./AjoutActu";
 
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
@@ -26,7 +27,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <ActuAdmin/>
+         <AjoutActu/>
          <Footer />
       </div>
    );
