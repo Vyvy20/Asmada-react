@@ -1,0 +1,88 @@
+.ActuNum2ADemandeSupp {
+    margin-left: 700px;
+    margin-top: -303px;
+}
+
+.ActuNum1ADemandeSupp {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.TitreActu1ADemandeSupp, .TitreActu2DemandeSupp {
+    font-size: 25px;
+    color: black;
+}
+
+.ActuNum1ADemandeSupp, .ActuNum2ADemandeSupp {
+    padding: 10px;
+    border-radius: 20px;
+    width: 500px;
+    background-color: #C49990;
+}
+
+.SepDemandeSuppActu {
+    width: auto;
+    background-color: lightgrey;
+}
+
+footer {
+    position: sticky;
+    margin-top: 100px;
+}
+
+.btnModifActuDemandeSupp, .btnSuppActuDemandeSupp, .btnAjouterActuDemandeSupp {
+    border-radius: 20px;
+    border: none;
+    background-color: #5E2F2F;
+    color: white;
+}
+
+.btnSuppActuDemandeSupp {
+    margin-left: 300px;
+}
+
+.btnModifActuDemandeSupp {
+    margin-left: 10px;
+}
+
+.btnAjouterActuDemandeSupp {
+    margin-left: 1000px;
+}
+
+.CacheActu {
+    position: absolute;
+    background-color: rgb(198, 131, 87, 0.2);
+    width: 100%;
+    height: 100%;
+    margin-top: -426px;
+}
+
+.DemandeSupActu {
+    background-color: rgb(94, 47, 47, 0.9);
+    margin-left: 400px;
+    width: 550px;
+    height: 90px;
+    margin-top: 220px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.MsgSupDemandeActu {
+    font-size: 20px;
+    text-align: center;
+}
+
+.BtnOuiSuppActu, .BtnNonSuppActu {
+    border-radius: 5px;
+    background-color: #C49990;
+    border: none;
+    width: 100px;
+}
+
+.BtnNonSuppActu {
+    margin-left: 16px;
+}
+
+.BtnOuiSuppActu {
+    margin-left: 310px;
+}

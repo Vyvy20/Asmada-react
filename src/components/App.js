@@ -20,6 +20,7 @@ import DetailActu from "./DetailActu"
 import ActuAdmin from "./ActuAdmin"
 import AjoutActu from "./AjoutActu";
 import ModifActu from "./ModifActu";
+import SuppDemandeActu from "./SuppDemandeActu"
 
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
@@ -28,7 +29,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <ModifActu/>
+         <SuppDemandeActu/>
          <Footer />
       </div>
    );

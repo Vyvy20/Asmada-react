@@ -40,7 +40,7 @@ function Actu() {
                 {/* Bloc deuxième mission */}
                 <div className='ActuNum2'>
 
-                    <a className='TitreActu1' href='*'>Test</a><br></br>
+                    <a className='TitreActu1' href='*'>Test du moment</a><br></br>
                     <label className='LblResumeNum2'>Résumé</label>
                     <p className='ResumeActu2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     
