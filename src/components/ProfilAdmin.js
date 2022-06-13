@@ -7,7 +7,7 @@ function ProfilA() {
 
     {/* Bloc des titres */}
       <div className='TitreProfilA'>
-        <h4 className='NomAdmin'> Administrice {'>'} Amélie ADMIN</h4>
+        <h4 className='NomAdmin'> Administratrice {'>'} Amélie ADMIN</h4>
         <hr className='SepProfilA'></hr>
       </div>
 
@@ -40,6 +40,7 @@ function ProfilA() {
           <h5 className='OutilsA'>Outils</h5>
           <a className='GestCand' href='*'>Gestion des candidatures</a><br></br>
           <a className='GestTest' href='*'>Gestion des tests</a><br></br>
+          <a className='GestActu' href='*'>Gestion des actualités</a><br></br>
 
           {/* Bloc du statut des missions */}
           <div className='StatutMissions'>

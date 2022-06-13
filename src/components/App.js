@@ -29,7 +29,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <SuppDemandeActu/>
+         <ProfileA/>
          <Footer />
       </div>
    );
