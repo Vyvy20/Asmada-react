@@ -1,15 +1,27 @@
 import React, {Component} from 'react';
 import "../Css/ProfilAdmin.css"
+const Admin = new URL("../images/Admin.jpg", import.meta.url)
+const PictureAsmada = new URL("../images/Asmada.jpg", import.meta.url)
 
 function ProfilA() {
   return (
-    <div classname='ProfilGlobalAdmin'>
+    <div className="page-top">
 
-    {/* Bloc des titres */}
-      <div className='TitreProfilA'>
-        <h4 className='NomAdmin'> Administratrice {'>'} Amélie ADMIN</h4>
-        <hr className='SepProfilA'></hr>
-      </div>
+    <div> 
+        <img className="Photo1Admin" src={Admin} />
+    </div>
+    <div className="logoAsmada"> 
+        <img className="Photo2" src={PictureAsmada} />
+    </div><br/><br/>
+
+     <section className="resume-Titre">
+         
+        <div className="resume-section-content">
+            <h1 className="Titre">
+            Administratrice {'>'} Amélie ADMIN
+            </h1>
+        </div><br/><br/>
+    </section> 
 
        {/* Contenu du profil contenant le menu, les informations de l'administrateur et un bloc pour donner un statut à la mission */}
       <div className='ContenuProfilA'>

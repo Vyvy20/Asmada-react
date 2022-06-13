@@ -1,3 +1,33 @@
+.page-top{
+    width: 100%;
+}
+
+.Photo1Admin{
+    width: 100%;
+    height: 370px;
+}
+
+.Photo2{
+    width: 30%;
+    height: 30%;
+    border-radius: 666px;
+    margin-top: -80px;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.logoAsmada{
+
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.resume-Titre{
+    text-align: center;
+}
+
 .MenuA {
     background-color: #C49990;
     width: 205px;
