@@ -21,15 +21,6 @@ function App(){
          <Nav />
          <Footer />
 
-         {/* <BrowserRouter>
-            <Route>
-               <Route path="/" index element={<Article />}>
-                  {/* <Route index element={<Home />} /> */}
-                  {/* <Route path="Inscription" element={<Inscription />} />
-                  <Route path="Connexion" element={<Connexion />} />
-               </Route>
-            </Route>
-         </BrowserRouter> */}
       </div>
 
       
