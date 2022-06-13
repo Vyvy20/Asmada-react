@@ -1,14 +1,27 @@
 import React, {Component} from 'react';
 import "../Css/ProfilBenevole.css"
+const Bene = new URL("../images/Bénévole.jpg", import.meta.url)
+const PictureAsmada = new URL("../images/Asmada.jpg", import.meta.url)
 
 function ProfilB() {
   return (
-    <div classname='ProfilGlobal'>
-      {/* Bloc des titres */}
-      <div className='TitreProfil'>
-        <h4 className='NomBenevole'> Bénévole {'>'} Camille DANG</h4>
-        <hr className='SepProfil'></hr>
-      </div>
+    <div className="page-top">
+
+    <div> 
+        <img className="Photo1Béné" src={Bene} />
+    </div>
+    <div className="logoAsmada"> 
+        <img className="Photo2" src={PictureAsmada} />
+    </div><br/><br/>
+
+     <section className="resume-Titre">
+         
+        <div className="resume-section-content">
+            <h1 className="Titre">
+            Bénévole {'>'} Camille DANG
+            </h1>
+        </div><br/><br/>
+    </section> 
 
       {/* Contenu du profil contenant le menu, les informations du bénévoles et un bloc pour candidater */}
       <div className='ContenuProfil'>
