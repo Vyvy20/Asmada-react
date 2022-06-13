@@ -1,32 +1,31 @@
 import React, {Component} from 'react';
 import "../Css/Mission.css"
+const Miss = new URL("../images/Mission.png", import.meta.url)
+const PictureAsmada = new URL("../images/Asmada.jpg", import.meta.url)
 
 function Mission() {
     return (
 
-        <div className='MissionsAsso'>
+        <div className="page-top">
 
-            <h1 className='TitrePageMiss'>Missions proposées</h1>
-            <hr className='SepMiss'></hr>
+            <div> 
+                <img className="Photo1Miss" src={Miss} />
+            </div>
+            <div className="logoAsmada"> 
+                <img className="Photo2" src={PictureAsmada} />
+            </div><br/><br/>
+
+             <section className="resume-Titre">
+                 
+                <div className="resume-section-content">
+                    <h1 className="Titre">
+                    Missions proposées
+                    </h1>
+                </div><br/><br/>
+            </section> 
 
             {/* Bloc des missions */}
             <div className='LstMissions'>
-
-                {/*
-                <form className='FrmFiltre'>
-
-                    <div className='Filtres'>
-
-                        <h2 className='TitreFiltresRech'>Filtres de recherche</h2>
-                        <label className='LblMotCle'>Mot-clé :</label>
-                        <input type='text' className='TxtMotCle' value='Entrer un mot clé'></input>
-                        <label className='LblThm'>Thème : </label>
-                        <input type='text' className='TxtThm' value='Entrer un thème'></input> <br></br>
-                        <input type='submit' className='BtnRech' value='Rechercher'></input>
-
-                    </div>
-
-                </form>*/}
 
                 {/* Bloc première mission */}
                 <div className='MissionNum1'>
