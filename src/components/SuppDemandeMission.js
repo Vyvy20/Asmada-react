@@ -1,45 +1,99 @@
 import React, {Component} from 'react';
 import "../Css/SuppDemandeMission.css"
+const Miss = new URL("../images/Mission.png", import.meta.url)
+const PictureAsmada = new URL("../images/Asmada.jpg", import.meta.url)
+const PictureJava = new URL("../images/java.jpg", import.meta.url)
+const PictureElect = new URL("../images/Elect.jpg", import.meta.url)
+const PictureMaçon = new URL("../images/maçon.jpg", import.meta.url)
+const PictureCuis = new URL("../images/dessin-cuisinier.png", import.meta.url)
 
 function MissionDemandeSup() {
     return (
 
-        <div className='MissionsAssoAdminDemandeSupp'>
+        <div className="page-top">
 
-            <h1 className='TitrePageMissADemandeSupp'>Missions proposées</h1>
-            <hr className='SepMissADemandeSupp'></hr>
-            <input type='submit' className='btnAjouterMissDemandeSupp' value='Ajouter une mission'></input>
+            <div> 
+                <img className="Photo1Miss" src={Miss} />
+            </div>
+            <div className="logoAsmada"> 
+                <img className="Photo2" src={PictureAsmada} />
+            </div><br/><br/>
+
+             <section className="resume-Titre">
+                 
+                <div className="resume-section-content">
+                    <h1 className="Titre">
+                    Gestion des missions
+                    </h1>
+                </div><br/><br/>
+            </section> 
+
+            <input type='submit' className='btnAjouterMiss' value='Ajouter une mission'></input>
             
             {/* Bloc des missions */}
-            <div className='LstMissionsAdminDemandeSupp'>
+            <div className='LstMissionsAdmin'>
 
                 {/* Bloc première mission */}
-                <div className='MissionNum1ADemandeSupp'>
+                <div className='MissionNum1A'>
 
-                    <h2 className='TitreMission1ADemandeSupp'>Professeur de soutien en programmation</h2>
-                    <label className='DureeADemandeSupp'>Durée : </label>
+                    <h2 className='TitreMission1A'>Professeur de soutien en programmation</h2>
+                    <label className='DureeA'>Durée : </label>
                     <p>3 semaines</p>
-                    <label className='LieuADemandeSupp'>Lieu : </label>
+                    <label className='LieuA'>Lieu : </label>
                     <p>Salary</p>
-                    <label className='ThèmeADemandeSupp'>Thèmes : </label>
-                    <p>Programmation, Education</p>
-                    <input className='btnModifDemandeSupp' type="submit" value="Modifier " />
-                    <input className='btnSuppDemandeSupp' type="submit" value="Supprimer " />
+                    <label className='ThèmeA'>Thèmes : </label>
+                    <p>Programmation</p>
+                    <img className="Photo2Miss" src={PictureJava} />
+                    <input className='btnModif' type="submit" value="Modifier " />
+                    <input className='btnSupp' type="submit" value="Supprimer " />
 
                 </div>
 
                 {/* Bloc deuxième mission */}
-                <div className='MissionNum2ADemandeSupp'>
+                <div className='MissionNum2A'>
 
-                    <h2 className='TitreMission1ADemandeSupp'>Electricien</h2>
-                    <label className='DureeADemandeSupp'>Durée : </label>
+                    <h2 className='TitreMission1A'>Electricien</h2>
+                    <label className='DureeA'>Durée : </label>
                     <p>2 semaines</p>
-                    <label className='LieuADemandeSupp'>Lieu : </label>
+                    <label className='LieuA'>Lieu : </label>
                     <p>Ankara</p>
-                    <label className='ThèmeADemandeSupp'>Thèmes : </label>
+                    <label className='ThèmeA'>Thèmes : </label>
                     <p>Electricité</p>
-                    <input className='btnModifDemandeSupp' type="submit" value="Modifier " />
-                    <input className='btnSuppDemandeSupp' type="submit" value="Supprimer " />
+                    <img className="Photo2Miss" src={PictureElect} />
+                    <input className='btnModif' type="submit" value="Modifier " />
+                    <input className='btnSupp' type="submit" value="Supprimer " />
+                    
+                </div>
+
+                {/*Bloc 3ème mission*/}
+                <div className='MissionNum3A'>
+
+                    <h2 className='TitreMission1' href='*'>Maçon</h2>
+                    <label className='Duree'>Durée : </label>
+                    <p>1 semaine</p>
+                    <label className='Lieu'>Lieu : </label>
+                    <p>Tuléar</p>
+                    <label className='Thème'>Thèmes : </label>
+                    <p>Maçonerie</p>
+                    <img className="Photo2Miss" src={PictureMaçon} />
+                    <input className='btnModif' type="submit" value="Modifier " />
+                    <input className='btnSupp' type="submit" value="Supprimer " />
+                    
+                </div>
+
+                {/*Bloc 4ème mission*/}
+                <div className='MissionNum4A'>
+
+                <h2 className='TitreMission1' href='*'>Cuisinier</h2>
+                    <label className='Duree'>Durée : </label>
+                    <p>1 mois</p>
+                    <label className='Lieu'>Lieu : </label>
+                    <p>Majunga</p>
+                    <label className='Thème'>Thèmes : </label>
+                    <p>Cuisine</p>
+                    <img className="Photo2Miss" src={PictureCuis} />
+                    <input className='btnModif' type="submit" value="Modifier " />
+                    <input className='btnSupp' type="submit" value="Supprimer " />
                     
                 </div>
 

@@ -55,9 +55,9 @@ function ProfilA() {
           <a className='GestActu' href='*'>Gestion des actualités</a><br></br>
 
           {/* Bloc du statut des missions */}
-          <div className='StatutMissions'>
-            <h5 className='TitreStatutMission'>Donnez le statut de la mission</h5>
-            <input type='submit' className='BtnStatutMiss' value='Je renseigne le statut de la mission'/>
+          <div className='StatutMissionsA'>
+            <h5 className='TitreStatutMissionA'>Donnez le statut de la mission</h5>
+            <input type='submit' className='BtnStatutMissA' value='Je renseigne le statut de la mission'/>
           </div>
         
         </div>

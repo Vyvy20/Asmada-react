@@ -1,20 +1,55 @@
+.page-top{
+    width: 100%;
+}
+
+.Photo1Miss{
+    width: 100%;
+    height: 370px;
+}
+
+.Photo2{
+    width: 30%;
+    height: 30%;
+    border-radius: 666px;
+    margin-top: -80px;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.Photo2Miss{
+    border-radius: 660px;
+    margin-top: -250px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 280px;
+}
+
+.logoAsmada{
+
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.resume-Titre{
+    text-align: center;
+}
+
 .AjoutMiss {
-    background-color: #C49990;
+    background-color: #ebaa9d;
     padding: 5px;
     width: 530px;
-    margin-left: 400px;
+    margin-left: 367px;
+    border-radius: 20px;
 }
 
-.SepAjoutMiss {
-    width: auto;
-    background-color: lightgrey;
-}
-
-.LblTitreMiss, .LblDuree, .LblLieu, .LblDom, .LblDesc {
+.LblTitreMiss, .LblDuree, .LblLieu, .LblDom, .LblDesc, .LblImg {
     text-decoration: underline
 }
 
-.TxtTitreMiss, .TxtDuree, .TxtLieu, .TxtDom, .TxtDesc {
+.TxtTitreMiss, .TxtDuree, .TxtLieu, .TxtDom, .TxtDesc, .ZoneGlissDep {
     margin-left: 10px;
     border: none;
     border-radius: 5px;
@@ -30,6 +65,7 @@
     background-color: #5E2F2F;
     color: white;
     border: none;
+    margin-top: 10px;
 }
 
 .BtnAnnul {
@@ -37,5 +73,12 @@
 }
 
 .BtnAjout {
-    margin-left: 360px;
+    margin-left: 358px;
+}
+
+.ZoneGlissDep {
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
 }

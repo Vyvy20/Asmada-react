@@ -32,7 +32,7 @@
     background-color: #C49990;
     width: 205px;
     height: 360px;
-    margin-left: 30px;
+    margin-left: 100px;
     border-radius: 20px;
     padding: 7px;
 }
@@ -40,13 +40,13 @@
 
 .MenuA input[type='submit'] {
     width: 190px;
-    height: 30px;
+    height: 40px;
     text-align: center;
-    margin-top: 23px;
+    margin-top: 15px;
     background-color: #5E2F2F;
     border: none;
     color: white;
-    padding: auto;
+    padding: 5px;
 }
 
 .MenuA input[type='submit']:focus {
@@ -56,7 +56,7 @@
 
 .InfoAdmin {
     margin-top: -360px;
-    margin-left: 270px;
+    margin-left: 350px;
     width: 800px;
     height: 360px;
     background-color: rgb(211, 211, 211);
@@ -73,7 +73,7 @@
     color: white;
 }
 
-.BtnStatutMiss {
+.BtnStatutMissA {
     text-align: center;
     width: 275px;
     margin-left: 3px;
@@ -84,26 +84,21 @@
     padding: 3px;
 }
 
-.StatutMissions {
+.StatutMissionsA {
     position: absolute;
     width: 300px;
     margin-top: -110px;
-    margin-left: 465px;
+    margin-left: 410px;
     background-color: #C49990;
     border-radius: 20px;
     padding: 10px;
 }
-
-.SepProfil {
-    width: auto;
-    background-color: lightgrey;
-}
-
-.MsgBienvenue {
+.MsgBienvenueA {
     color:#5E2F2F;
+    margin-left: 100px;
 }
 
-.TitreStatutMission {
+.TitreStatutMissionA {
     text-align: center;
 }
 
