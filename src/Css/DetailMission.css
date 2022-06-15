@@ -1,5 +1,44 @@
+.page-top{
+    width: 100%;
+}
+
+.Photo1Miss{
+    width: 100%;
+    height: 370px;
+}
+
+.Photo2{
+    width: 30%;
+    height: 30%;
+    border-radius: 666px;
+    margin-top: -80px;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.Photo2MissDet{
+    border-radius: 660px;
+    margin-top: -350px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 650px;
+}
+
+.logoAsmada{
+
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.resume-Titre{
+    text-align: center;
+}
+
 .MissionAssoDetail {
-    background-color: lightgrey;
+    background-color: #F5E4C6;
     margin-top: 50px;
     border-radius: 20px;
     margin-left: 200px;
@@ -26,7 +65,7 @@
 }
 
 .Dispo {
-    background-color: #C49990;
+    background-color: #F7B783;
     width: 590px;
     padding: 5px;
     margin-left: 30px;
