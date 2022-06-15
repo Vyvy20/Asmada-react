@@ -29,7 +29,7 @@ function App(){
       <div>
          <Header />
          <Nav/>
-         <DetailMission/>
+         <Actu/>
          <Footer />
       </div>
    );
