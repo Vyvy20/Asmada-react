@@ -107,7 +107,7 @@ function MissionDemandeSup() {
 
                     <p className='MsgSupDemande'>Voulez-vous vraiment supprimer supprimer cette mission ?</p>
                     <input type='submit' className='BtnOuiSupp' value='Oui'></input>
-                    <input type='submit' className='BtnNonSupp' value='Non'></input>
+                    <a href="/MissionAdmin" className='BtnNonSupp' type="submit">Non</a>
                 </div>
 
             </div>

@@ -47,7 +47,7 @@ function DetailMission() {
                     </div>
                 </form><br></br>
 
-                <input className='btnQuest' type="submit" value="Réaliser le test " />
+                <a href="/Test" className='btnQuest' type="submit">Réaliser le test</a>
                 <input className='btnPostu' type="submit" value="Postuler " />
 
             </div>

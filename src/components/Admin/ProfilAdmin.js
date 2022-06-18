@@ -5,23 +5,11 @@ const PictureAsmada = new URL("../../images/Asmada.jpg", import.meta.url)
 
 function ProfilA() {
   return (
-    <div className="page-top">
-
-    <div> 
-        <img className="Photo1Admin" src={Admin} />
-    </div>
-    <div className="logoAsmada"> 
-        <img className="Photo2" src={PictureAsmada} />
-    </div><br/><br/>
-
-     <section className="resume-Titre">
-         
-        <div className="resume-section-content">
-            <h1 className="Titre">
-            Administratrice {'>'} Amélie ADMIN
-            </h1>
-        </div><br/><br/>
-    </section> 
+    <div className='ProfilGlobalA'>
+      <div className='TitreA'>
+        <h4 className='NomAdmin'>Bénévole {'>'} Amélie Admin</h4>
+        <hr className='SepProfil'></hr>
+      </div>
 
        {/* Contenu du profil contenant le menu, les informations de l'administrateur et un bloc pour donner un statut à la mission */}
       <div className='ContenuProfilA'>
@@ -32,9 +20,9 @@ function ProfilA() {
           <input type='submit' className='btnCompteA' value='Mon Compte'/> <br className='EspaceCA'></br>
           <input type='submit' className='btnProfilA' value='Mon Profil'/> <br className='EspacePA'></br>
           <input type='submit' className='btnGestInsc' value='Gestion des inscrits'/> <br className='EspaceI'></br>
-          <input type='submit' className='btnGestMiss' value='Gestion des missions'/> <br className='EspaceM'></br>
+          <a href="/MissionAdmin" className='btnGestMiss' type="submit">Gestion des missions</a><br></br>
           <input type='submit' className='btnContactA' value='Contacter un bénévole'/> <br className='EspaceCoA'></br>
-          <input type='submit' className='btnDecoA' value='Déconnexion'/> <br className='EspaceDA'></br>
+          <a href="/" className='BtnDecoA' type="submit">Se déconnecter</a><br></br>
         </div>
 
         {/* Bloc des informations de l'administrateur */}

@@ -1,5 +1,5 @@
 import React from "react";
-import "../Css/ProfilBenevole.css"
+import "../../Css/ProfilBenevole.css"
 
 function ProfilB() {
   return (
@@ -17,7 +17,7 @@ function ProfilB() {
           <input type='submit' className='btnProfil' value='Mon Profil'/> <br></br>
           <input type='submit' className='btnHistoriqueMission' value='Historique'/> <br></br>
           <input type='submit' className='btnContact' value='Contact'/> <br></br>
-          <input type='submit' className='btnDeco' value='Déconnexion'/> <br></br>
+          <a href="/" className='BtnDeco' type="submit">Se déconnecter</a><br></br>
         </div>
 
         <div className='InfoBenevole'>
@@ -37,7 +37,7 @@ function ProfilB() {
           
           <div className='ConsultMissions'>
             <h5 className='TitreConsultMission'>Consultez les missions bénévoles proposées par l'association</h5>
-            <input type='submit' className='BtnRenseigne' value='Je renseigne mon profil pour trouver des&#13;&#10;missions qui me correspondent'/>
+            <a href="/Mission" className='BtnRenseigne' type="submit">Je renseigne mon profil pour trouver des&#13;&#10;missions qui me correspondent</a><br></br>
           </div>
         
         </div>

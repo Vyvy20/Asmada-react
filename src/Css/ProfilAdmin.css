@@ -1,33 +1,3 @@
-.page-top{
-    width: 100%;
-}
-
-.Photo1Admin{
-    width: 100%;
-    height: 370px;
-}
-
-.Photo2{
-    width: 30%;
-    height: 30%;
-    border-radius: 666px;
-    margin-top: -80px;
-    width: 15rem;
-    height: 15rem;
-    object-fit: cover;
-}
-
-.logoAsmada{
-
-    position: relative;
-    text-align: center;
-    z-index: 2;
-}
-
-.resume-Titre{
-    text-align: center;
-}
-
 .MenuA {
     background-color: #C49990;
     width: 205px;
@@ -38,15 +8,20 @@
 }
 
 
-.MenuA input[type='submit'] {
-    width: 190px;
-    height: 40px;
+.MenuA input[type='submit'], .BtnDecoA, .btnGestMiss {
+    width: 90%;
+    height: 10%;
     text-align: center;
-    margin-top: 15px;
+    margin-left: 7%;
+    margin-top: 11%;
     background-color: #5E2F2F;
     border: none;
     color: white;
-    padding: 5px;
+    padding: 2%;
+}
+
+.BtnDecoA, .btnGestMiss {
+    text-decoration: none;
 }
 
 .MenuA input[type='submit']:focus {
@@ -65,10 +40,9 @@
 
 .BtnModifInfosA {
     position: absolute;
-    margin-top: -200px;
-    margin-left: 210px;
+    margin-top: -15%;
+    margin-left: 16%;
     background-color: #5E2F2F;
-    font-size: 20px;
     border: none;
     color: white;
 }
@@ -86,9 +60,10 @@
 
 .StatutMissionsA {
     position: absolute;
-    width: 300px;
-    margin-top: -110px;
-    margin-left: 410px;
+    text-align: center;
+    width: 25%;
+    margin-top: -7%;
+    margin-left: 30%;
     background-color: #C49990;
     border-radius: 20px;
     padding: 10px;

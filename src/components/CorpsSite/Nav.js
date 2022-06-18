@@ -21,18 +21,16 @@ import "../../Css/App.css";
 
 import Mission from "../Benevole/Mission";
 import Actu from "../Visiteur/Actu";
-import ActuAdmin from "../Admin/ActuAdmin";
-import AjoutActu from "../Admin/AjoutActu";
 import AjoutMission from "../Admin/AjoutMission";
 import DetailActu from "../Benevole/DetailActu";
 import DetailMission from "../Benevole/DetailMission";
 import MissionAdmin from "../Admin/MissionAdmin";
-import ModifActu from "../Admin/ModifActu";
 import ModifMission from "../Admin/ModifMission";
 import ProfilAdmin from "../Admin/ProfilAdmin";
 
 
 import MissionDemandeSup from "../Admin/MissionDemandeSup"; 
+import ProfilBenevole from "../Benevole/ProfilBenevole";
 
 
 function Nav(){
@@ -67,27 +65,25 @@ function Nav(){
             
             {(toggleMenu || largeur > 825) && (
                 <ul className="liste">
-                   {/* <Link className="items"  to="/"> Accueil </Link>
+                   <Link className="items"  to="/"> Accueil </Link>
                    <Link className="items" to="/Qui_sommes_nous"> Qui sommes nous</Link>
                    <Link className="items" to="/Actu"> Actualités</Link>
                    <Link className="items" to="/Action"> Actions</Link>
-                   <Link className="items" to="/Connexion"> Connexion</Link> */}
+                   <Link className="items" to="/Connexion"> Connexion</Link>
 
 
-                   <Link className="items"  to="/Mission"> Mission </Link>
+                   {/*<Link className="items"  to="/Mission"> Mission </Link>
                    <Link className="items"  to="/DetailMission"> DetailMission Benev</Link>
                    <Link className="items"  to="/AjoutMission"> AjoutMission </Link>
                    <Link className="items"  to="/MissionAdmin"> MissionAdmin</Link>
                    <Link className="items"  to="/ModifMission"> ModifMission</Link>
 
-                   <Link className="items"  to="/ActuAdmin"> ActuAdmin </Link>
-                   <Link className="items"  to="/AjoutActu"> AjoutActu </Link>
-                   <Link className="items"  to="/DetailActu"> DetailActu </Link>
-                   <Link className="items"  to="/ModifActu"> ModifActu</Link>  
+
+                   <Link className="items"  to="/DetailActu"> DetailActu </Link>  
                    <Link className="items"  to="/ProfilAdmin"> ProfilAdmin</Link>
 
                   
-                   <Link className="items"  to="/MissionDemandeSup"> MissionDemandeSup</Link>
+                   <Link className="items"  to="/MissionDemandeSup"> MissionDemandeSup</Link>*/}
                    
                 </ul>
             )} 
@@ -107,16 +103,16 @@ function Nav(){
               <Route exact path="/Mission" component={Mission} />
               <Route exact path="/AjoutMission" component={AjoutMission} />
               <Route exact path="/DetailMission" component={DetailMission} />
-              <Route exact path="/ActuAdmin" component={ActuAdmin} />
-              <Route exact path="/AjoutActu" component={AjoutActu} />
               <Route exact path="/DetailActu" component={DetailActu} />
               <Route exact path="/MissionAdmin" component={MissionAdmin} />
-              <Route exact path="/ModifActu" component={ModifActu} />
               <Route exact path="/ModifMission" component={ModifMission} />
               <Route exact path="/ProfilAdmin" component={ProfilAdmin} /> 
 
+              <Route exact path="/ProfilBenevole" component={ProfilBenevole} />
+
               
               <Route exact path="/MissionDemandeSup" component={MissionDemandeSup} />
+              
         </div>
         </Routes>
  

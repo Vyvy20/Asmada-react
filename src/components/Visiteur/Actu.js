@@ -36,7 +36,7 @@ function Actu() {
                 {/* Bloc première actualité */}
                 <div className='ActuNum1'>
 
-                    <a className='TitreActu1' href='*'>Une école est ouverte !</a><br></br>
+                    <a className='TitreActu1' href='/DetailActu'>Une école est ouverte !</a><br></br>
                     <img className="Photo2Actu" src={PictureEcole} /><br></br>
                     <label className='LblResumeNum1'>Résumé</label>
                     <p className='ResumeActu1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

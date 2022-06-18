@@ -37,24 +37,12 @@
     text-align: center;
 }
 
-.MissionNum2A {
-    margin-left: 390px;
-    margin-top: 50px;
+.MissionNum2A, .MissionNum1A, .MissionNum3A, .MissionNum4A {
+    margin-left: 30%;
 }
 
-.MissionNum1A {
-    margin-left: 390px;
-    margin-top: 20px;
-}
-
-.MissionNum3A {
-    margin-left: 390px;
-    margin-top: 70px;
-}
-
-.MissionNum4A {
-    margin-left: 390px;
-    margin-top: 90px;
+.MissionNum2A, .MissionNum1A, .MissionNum3A, .MissionNum4A {
+    margin-top: 3%;
 }
 
 .TitreMission1A /*,.TitreFiltresRech*/ {
@@ -74,21 +62,42 @@ footer {
     margin-top: 100px;
 }
 
-.btnModif, .btnSupp, .btnAjouterMiss {
+.btnModif, .btnSupp, .btnSuppT, .btnModifT, .btnAjouterMiss {
     border-radius: 10px;
+    text-align: center;
     border: none;
     background-color: #5E2F2F;
     color: white;
 }
 
+.btnModif, .btnSupp, .btnSuppT, .btnModifT {
+    width: 20%;
+}
+
 .btnAjouterMiss {
-    margin-left: 1000px;
+    width: 13%;
+}
+
+.btnAjouterMiss {
+    margin-left: 80%;
 }
 
 .btnSupp {
-    margin-left: 75px;
+    margin-left: 16.4%;
 }
 
 .btnModif {
-    margin-left: 100px;
+    margin-left: 21.3%;
+}
+
+.btnSuppT {
+    margin-left: 16%;
+}
+
+.btnModifT {
+    margin-left: 21%;
+}
+
+.btnSuppT, .btnModifT {
+    text-decoration: none;
 }

@@ -28,7 +28,7 @@ function MissionAdmin() {
                 </div><br/><br/>
             </section> 
 
-            <input type='submit' className='btnAjouterMiss' value='Ajouter une mission'></input>
+            <a href="/AjoutMission" className='btnAjouterMiss' type="submit">Ajouter une mission</a><br></br>
             
             {/* Bloc des missions */}
             <div className='LstMissionsAdmin'>
@@ -44,8 +44,8 @@ function MissionAdmin() {
                     <label className='ThèmeA'>Thèmes : </label>
                     <p>Programmation</p>
                     <img className="Photo2Miss" src={PictureJava} />
-                    <input className='btnModif' type="submit" value="Modifier " />
-                    <input className='btnSupp' type="submit" value="Supprimer " />
+                    <a href="/ModifMission" className='btnModifT' type="submit">Modifier</a>
+                    <a href="/MissionDemandeSup" className='btnSuppT' type="submit">Supprimer</a>
 
                 </div>
 
