@@ -16,9 +16,23 @@ import Action from "../Visiteur/Action";
 import Contact from "../Visiteur/Contact";
 import Test from "../Benevole/Test";
 import FaireTest from "../Admin/FaireTest";
-import "../../Css/App.css"
+import "../../Css/App.css";
 
 
+import Mission from "../Benevole/Mission";
+import Actu from "../Visiteur/Actu";
+import ActuAdmin from "../Admin/ActuAdmin";
+import AjoutActu from "../Admin/AjoutActu";
+import AjoutMission from "../Admin/AjoutMission";
+import DetailActu from "../Benevole/DetailActu";
+import DetailMission from "../Benevole/DetailMission";
+import MissionAdmin from "../Admin/MissionAdmin";
+import ModifActu from "../Admin/ModifActu";
+import ModifMission from "../Admin/ModifMission";
+import ProfilAdmin from "../Admin/ProfilAdmin";
+
+
+import MissionDemandeSup from "../Admin/MissionDemandeSup"; 
 
 
 function Nav(){
@@ -26,7 +40,6 @@ function Nav(){
 
     const [toggleMenu, setToggleMenu] = useState (false);
     const [largeur, setLargeur] = useState (window.innerWidth)
-
     const toggleNavSmallScreen = () => {
         setToggleMenu(!toggleMenu);
     }
@@ -43,7 +56,6 @@ function Nav(){
         window.addEventListener('resize', changeWidth);
         return() => {
             window.removeEventListener('resize', changeWidth);
-
         }
 
     }, [])
@@ -55,15 +67,27 @@ function Nav(){
             
             {(toggleMenu || largeur > 825) && (
                 <ul className="liste">
-                   <Link className="items"  to="/"> Accueil </Link>
+                   {/* <Link className="items"  to="/"> Accueil </Link>
                    <Link className="items" to="/Qui_sommes_nous"> Qui sommes nous</Link>
-                   <li className="items"> Actualités</li>
+                   <Link className="items" to="/Actu"> Actualités</Link>
                    <Link className="items" to="/Action"> Actions</Link>
-                   <Link className="items" to="/Test"> Test</Link>
-                   <Link className="items" to="/FaireTest"> Créer un Test</Link>
-                   <li className="items"> Espace bénévoles</li>
-                   {/* <Link className="items" to="/Inscription"> Inscription</Link> */}
-                   <Link className="items" to="/Connexion"> Connexion</Link>
+                   <Link className="items" to="/Connexion"> Connexion</Link> */}
+
+
+                   <Link className="items"  to="/Mission"> Mission </Link>
+                   <Link className="items"  to="/DetailMission"> DetailMission Benev</Link>
+                   <Link className="items"  to="/AjoutMission"> AjoutMission </Link>
+                   <Link className="items"  to="/MissionAdmin"> MissionAdmin</Link>
+                   <Link className="items"  to="/ModifMission"> ModifMission</Link>
+
+                   <Link className="items"  to="/ActuAdmin"> ActuAdmin </Link>
+                   <Link className="items"  to="/AjoutActu"> AjoutActu </Link>
+                   <Link className="items"  to="/DetailActu"> DetailActu </Link>
+                   <Link className="items"  to="/ModifActu"> ModifActu</Link>  
+                   <Link className="items"  to="/ProfilAdmin"> ProfilAdmin</Link>
+
+                  
+                   <Link className="items"  to="/MissionDemandeSup"> MissionDemandeSup</Link>
                    
                 </ul>
             )} 
@@ -73,12 +97,26 @@ function Nav(){
               <Route exact path="/Qui_sommes_nous" component={Nous} />
               <Route exact path="/Action" component={Action} />
               <Route exact path="/Inscription" component={Inscription} />
+              <Route exact path="/Actu" component={Actu} />
               <Route exact path="/Contact" component={Contact} />
               <Route exact path="/Connexion" component={Connexion} />
               <Route exact path="/Test" component={Test} />
               <Route exact path="/FaireTest" component={FaireTest} />
 
-    
+
+              <Route exact path="/Mission" component={Mission} />
+              <Route exact path="/AjoutMission" component={AjoutMission} />
+              <Route exact path="/DetailMission" component={DetailMission} />
+              <Route exact path="/ActuAdmin" component={ActuAdmin} />
+              <Route exact path="/AjoutActu" component={AjoutActu} />
+              <Route exact path="/DetailActu" component={DetailActu} />
+              <Route exact path="/MissionAdmin" component={MissionAdmin} />
+              <Route exact path="/ModifActu" component={ModifActu} />
+              <Route exact path="/ModifMission" component={ModifMission} />
+              <Route exact path="/ProfilAdmin" component={ProfilAdmin} /> 
+
+              
+              <Route exact path="/MissionDemandeSup" component={MissionDemandeSup} />
         </div>
         </Routes>
  

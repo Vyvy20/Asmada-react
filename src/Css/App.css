@@ -162,7 +162,7 @@ nav{
     margin-top: 20px;
     MARGIN-LEFT: 20px;
     MARGIN-RIGHT: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -30px;
     border-radius: 25px;
     width: 97%;
     PADDING-RIGHT: 10px;
@@ -175,7 +175,7 @@ nav{
     PADDING-BOTTOM: 25px;
     border-radius: 25px;
     MARGIN-TOP: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 115px;
     width: 18%;
     
 
@@ -235,7 +235,7 @@ nav{
     padding-top: 15px;
     border-radius: 25px;
     MARGIN-TOP: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 115px;
     WIDTH: 80%;
     justify-content: center;
     /*min-height: 100vh; */
@@ -370,7 +370,7 @@ footer ul li {
 
     .liste {
         flex-direction: column;
-        height: 180px;
+        height: 255px;
     }
     .Picturs {
         PADDING-BOTTOM: 15px;
@@ -438,6 +438,7 @@ footer ul li {
     .items{
         height: 10px;
         width: 100%;
+        padding: 8px;
         margin-top: 20px;
         line-height: 10px;
         font-size: 15px;

@@ -1,0 +1,46 @@
+.AjoutActu {
+    background-color: #C49990;
+    padding: 5px;
+    width: 530px;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+
+.SepAjoutActu {
+    width: auto;
+    background-color: lightgrey;
+}
+
+.LblTitreActu, .LblResuActu, .LblDescActu {
+    text-decoration: underline
+}
+
+.TxtTitreActu, .TxtResuActu, .TxtDescActu {
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.TxtDescActu{
+    height: 300px;
+}
+
+.TxtResuActu{
+    height: 200px;
+}
+
+.BtnAjoutActu, .BtnAnnulActu {
+    border-radius: 5px;
+    background-color: #5E2F2F;
+    color: white;
+    border: none;
+}
+
+.BtnAnnulActu {
+    margin-left: 20px;
+}
+
+.BtnAjoutActu {
+    margin-left: 360px;
+}

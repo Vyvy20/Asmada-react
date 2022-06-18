@@ -1,10 +1,7 @@
 import React from "react";
-
 import {BrowserRouter as Routes, Route, Link} from "react-router-dom"
 import Inscription from "../Visiteur/Inscription";
 import "../../Css/App.css"
-
-
 const Picture1 = new URL("../../images/7.jpg", import.meta.url)
 const Picture2 = new URL("../../images/5.jpg", import.meta.url)
 const Log1 = new URL("../../images/Log1.png", import.meta.url)
@@ -49,9 +46,9 @@ function Article(){
                 
                 <div className="Contact">
                      <ul className="listeContact">
-                         <a href="/Contact" className="itemsContactA"> Contact</a><br></br>
+                         <li href="/Contact" className="itemsContactA"> Contact</li><br></br>
                          <li href="https://www.helloasso.com/associations/asmada/formulaires/3" className="itemsContact">  Faire un don</li><br></br>
-                         <a href="/Action" className="itemsContactA"> Nos projet</a>
+                         <li href="/Action" className="itemsContactA"> Nos projet</li>
                       </ul>
 
                 </div>

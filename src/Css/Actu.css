@@ -1,0 +1,86 @@
+.page-top{
+    width: 100%;
+}
+
+.Photo1Miss{
+    width: 100%;
+    height: 370px;
+}
+
+.Photo2{
+    width: 30%;
+    height: 30%;
+    border-radius: 666px;
+    margin-top: -80px;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.Photo2Actu{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.logoAsmada{
+
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.resume-Titre{
+    text-align: center;
+}
+
+.ActuNum2 {
+    margin-left: 640px;
+    margin-top: -500px;
+}
+
+
+.ActuNum1 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.ActuNum3 {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.ActuNum4 {
+    margin-left: 640px;
+    margin-top: -500px;
+}
+
+.ActuNum5 {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.ActuNum6 {
+    margin-left: 640px;
+    margin-top: -500px;
+}
+
+.TitreActu1 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.ActuNum1, .ActuNum2, .ActuNum3, .ActuNum4, .ActuNum5, .ActuNum6 {
+    padding: 10px;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: #E39696;
+}
+
+footer {
+    position: sticky;
+    margin-top: 100px;
+}

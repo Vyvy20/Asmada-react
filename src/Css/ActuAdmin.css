@@ -1,0 +1,61 @@
+.ActuNum2A {
+    margin-left: 700px;
+    margin-top: -301px;
+}
+
+.ActuNum1A {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.TitreActu1A /*,.TitreFiltresRech*/ {
+    font-size: 25px;
+    color: black;
+}
+
+.ActuNum1A, .ActuNum2A {
+    padding: 10px;
+    border-radius: 20px;
+    width: 500px;
+    background-color: #C49990;
+}
+
+.SepActuA {
+    width: auto;
+    background-color: lightgrey;
+}
+
+footer {
+    position: sticky;
+    margin-top: 100px;
+}
+
+.btnModifActu, .btnSuppActu, .btnAjouterActu {
+    border-radius: 20px;
+    border: none;
+    background-color: #5E2F2F;
+    color: white;
+}
+
+.btnSuppActu {
+    margin-left: 300px;
+}
+
+.btnModifActu {
+    margin-left: 10px;
+}
+
+.btnAjouterActu {
+    margin-left: 1000px;
+}
+
+/*.Filtres {
+    background-color: #F8E154;
+    margin-left: 100px;
+    width: 1100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.BtnRech {
+    margin-left: 970px;
+}*/

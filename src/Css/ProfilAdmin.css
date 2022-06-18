@@ -1,0 +1,216 @@
+.page-top{
+    width: 100%;
+}
+
+.Photo1Admin{
+    width: 100%;
+    height: 370px;
+}
+
+.Photo2{
+    width: 30%;
+    height: 30%;
+    border-radius: 666px;
+    margin-top: -80px;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.logoAsmada{
+
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.resume-Titre{
+    text-align: center;
+}
+
+.MenuA {
+    background-color: #C49990;
+    width: 205px;
+    height: 360px;
+    margin-left: 100px;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+
+.MenuA input[type='submit'] {
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: #5E2F2F;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+.MenuA input[type='submit']:focus {
+    background-color: #FCD65C;
+    color: black;
+}
+
+.InfoAdmin {
+    margin-top: -360px;
+    margin-left: 350px;
+    width: 800px;
+    height: 360px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+}
+
+.BtnModifInfosA {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 210px;
+    background-color: #5E2F2F;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+.BtnStatutMissA {
+    text-align: center;
+    width: 275px;
+    margin-left: 3px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #5E2F2F;
+    padding: 3px;
+}
+
+.StatutMissionsA {
+    position: absolute;
+    width: 300px;
+    margin-top: -110px;
+    margin-left: 410px;
+    background-color: #C49990;
+    border-radius: 20px;
+    padding: 10px;
+}
+.MsgBienvenueA {
+    color:#5E2F2F;
+    margin-left: 100px;
+}
+
+.TitreStatutMissionA {
+    text-align: center;
+}
+
+.PrenomA, .NomA, .TelA, .EmailA, .SuppMdpA, .ChangerMdpA, .GestCand, .GestTest, .GestActu {
+    font-size: 13px;
+}
+
+.TitreCoordA, .TitreMdpA, .TitreSuppCompteA, .OutilsA {
+    font-size: 18px;
+}
+
+@media screen  and (max-width:825px) {
+    .TitreProfilA {
+        margin-top: 120px;
+    }
+
+    .SepProfilA {
+        width: auto;
+        background-color: lightgrey;
+        padding: 4px;
+    }
+
+    .MenuA {
+    
+        position: absolute;
+        margin-top : 50%;
+       width: 75%;
+       height: 25%;
+       margin-left: 30px;
+    }
+
+    .MenuA input[type='submit'] {
+        display: inline-block;
+        width: 27%;
+        height: 40px;
+        text-align: center;
+        font-size: 13px;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+
+    .InfoAdmin {
+        width: 60%;
+        height: 300px;
+        margin-top: -5px;
+        margin-left: 30px;
+    }
+
+    .BtnModifInfosA {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: -7%;
+        font-size: 13px;
+        width: 25%;
+        height: 3%;
+        text-align: center;
+    }
+    
+    .StatutMissions {
+        position: absolute;
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 3%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .PrenomA, .NomA, .TelA, .EmailA, .SuppMdpA, .ChangerMdpA {
+        font-size: 10px;
+    }
+
+    .TitreStatutMission {
+        font-size: 15px;
+    }
+
+    footer{
+        position:absolute;
+        bottom: 0;
+        background-color: #FCD65C;  
+        height: 120px;
+        justify-content: center;
+        width: 100%;
+        top : 240%;
+        margin: auto;
+        padding: 8px 0;
+    }
+    
+    footer ul{
+    
+        list-style: none;
+        margin-bottom: 3%; 
+    }
+    
+    footer ul li { 
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .BtnStatutMiss {
+        text-align: center;
+        width: 50%;
+        font-size: 50%;
+        margin-left: 3%;
+        border: none;
+    }
+
+    .TitreCoordA, .TitreMdpA, .TitreSuppCompteA {
+        margin-bottom: -10px;
+        font-size: 15px;
+    }
+
+    .EspacePA, .EspaceCA, .EspaceGest, .EspaceCoA, .EspaceDA {
+        display: none;
+    }
+}
