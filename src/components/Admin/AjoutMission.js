@@ -37,7 +37,7 @@ function AjoutMission() {
                     <label className='LblImg'>Image :</label>
                     <div className='ZoneGlissDep'>Glisser-Déposer</div>
                     <input type='submit' className='BtnAjout' value='Ajouter'></input>
-                    <input type='submit' className='BtnAnnul' value='Annuler'></input>
+                    <a className="BtnAnnul" href="/MissionAdmin" type="submit">Annuler</a>
                 </div>
             </form>
         </div>

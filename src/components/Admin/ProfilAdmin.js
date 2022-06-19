@@ -7,7 +7,7 @@ function ProfilA() {
   return (
     <div className='ProfilGlobalA'>
       <div className='TitreA'>
-        <h4 className='NomAdmin'>Bénévole {'>'} Amélie Admin</h4>
+        <h4 className='NomAdmin'>Administratrice {'>'} Amélie Admin</h4>
         <hr className='SepProfil'></hr>
       </div>
 
@@ -39,7 +39,7 @@ function ProfilA() {
           <input type='submit' className='BtnModifInfosA' value='Je modifie mes informations'/><br></br>
           <h5 className='OutilsA'>Outils</h5>
           <a className='GestCand' href='*'>Gestion des candidatures</a><br></br>
-          <a className='GestTest' href='*'>Gestion des tests</a><br></br>
+          <a className='GestTest' href='/FaireTest' type="submit">Gestion des tests</a><br></br>
           <a className='GestActu' href='*'>Gestion des actualités</a><br></br>
 
           {/* Bloc du statut des missions */}

@@ -66,14 +66,17 @@
     color: white;
     border: none;
     margin-top: 10px;
+    width: 17%;
+    text-align: center;
 }
 
 .BtnAnnulModif {
-    margin-left: 20px;
+    margin-left: 3%;
+    text-decoration: none;
 }
 
 .BtnModif {
-    margin-left: 352px;
+    margin-left: 61%;
 }
 
 .ZoneGlissDep {

@@ -20,8 +20,8 @@ function Connexion() {
 
           <input  type="password" placeholder="Entrez votre mot de passe"  className="TextConnexion" /><br></br>
 
-          {/*<a href="/ProfilAdmin" className='boutenText' type="submit">Se connecter</a><br></br>*/}
-          <a href="/ProfilBenevole" className='boutenText' type="submit">Se connecter</a><br></br>
+          <a href="/ProfilAdmin" className='boutenText' type="submit">Se connecter</a><br></br>
+          {/*<a href="/ProfilBenevole" className='boutenText' type="submit">Se connecter</a><br></br>*/}
 
           <p className='MotdePass'>Mot de passe oublié ?</p>
 

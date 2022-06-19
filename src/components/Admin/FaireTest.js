@@ -230,7 +230,7 @@ function FaireTest(){
 
                         <div className="ParagDonTest" >
                             <div className="BoutonDonNous">
-                                    <a className="submitAnnuler" href="#">Annuler</a>
+                                    <a className="submitAnnuler" href="/ProfilAdmin">Annuler</a>
                             </div>
                         </div>
                     </div> 

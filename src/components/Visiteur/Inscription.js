@@ -35,7 +35,7 @@ function Inscription() {
 
           <input className="TextInsciption" type="password" placeholder="Entrez votre mot de passe" /><br></br>
 
-          <a className='boutenTextins' id="btnInscription" type="submit" >S'inscrire</a>
+          <a className='boutenTextins' id="btnInscription" type="submit" href='/Connexion' >S'inscrire</a>
 
           <hr className='bare'></hr>
 

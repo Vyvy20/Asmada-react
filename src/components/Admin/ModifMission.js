@@ -37,7 +37,7 @@ function ModifMission() {
                 <label className='LblImg'>Image :</label>
                 <div className='ZoneGlissDep'>Glisser-Déposer</div>
                 <input type='submit' className='BtnModif' value='Modifier'></input>
-                <input type='submit' className='BtnAnnulModif' value='Annuler'></input>
+                <a href="/MissionAdmin" className='BtnAnnulModif'  type="submit">Annuler</a>
             </div>
         </div>
     )
